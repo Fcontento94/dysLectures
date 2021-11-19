@@ -33,6 +33,7 @@ struct TutorialView: View {
           .multilineTextAlignment(.center)
           .padding()
         Text("ti odio federica")
+            Text("anche io ti odio")
             } //endVStack
         } //endZStack
     } //endView
