@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DC7A5CF274815DB005F9AA3 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */; };
+		9DC7A5D0274815DB005F9AA3 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */; };
+		9DC7A5D1274815DB005F9AA3 /* OpenDyslexic-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */; };
+		9DC7A5D2274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */; };
 		A443C3152746EE1500D7EA54 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3142746EE1500D7EA54 /* TutorialView.swift */; };
 		A443C3182746EEC500D7EA54 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3172746EEC500D7EA54 /* Data.swift */; };
 		A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3192746F1E800D7EA54 /* BookView.swift */; };
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
+		9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.otf"; sourceTree = "<group>"; };
+		9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.otf"; sourceTree = "<group>"; };
+		9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.otf"; sourceTree = "<group>"; };
+		9DC7A5D327481630005F9AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A443C3142746EE1500D7EA54 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		A443C3172746EEC500D7EA54 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		A443C3192746F1E800D7EA54 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
@@ -77,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DC7A5CA2748158F005F9AA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */,
+				9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */,
+				9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */,
+				9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A443C3112746E64600D7EA54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +139,8 @@
 		A4E150382746707500A4FA4B /* DysLectures */ = {
 			isa = PBXGroup;
 			children = (
+				9DC7A5D327481630005F9AA3 /* Info.plist */,
+				9DC7A5CA2748158F005F9AA3 /* Fonts */,
 				A443C3112746E64600D7EA54 /* Views */,
 				A4E150392746707500A4FA4B /* DysLecturesApp.swift */,
 				A4E1503D2746707600A4FA4B /* Assets.xcassets */,
@@ -256,8 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC7A5D1274815DB005F9AA3 /* OpenDyslexic-Italic.otf in Resources */,
+				9DC7A5CF274815DB005F9AA3 /* OpenDyslexic-Regular.otf in Resources */,
+				9DC7A5D0274815DB005F9AA3 /* OpenDyslexic-Bold.otf in Resources */,
 				A4E150412746707600A4FA4B /* Preview Assets.xcassets in Resources */,
 				A4E1503E2746707600A4FA4B /* Assets.xcassets in Resources */,
+				9DC7A5D2274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +476,7 @@
 				DEVELOPMENT_TEAM = STAMBSG6AQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DysLectures/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,6 +507,7 @@
 				DEVELOPMENT_TEAM = STAMBSG6AQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DysLectures/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

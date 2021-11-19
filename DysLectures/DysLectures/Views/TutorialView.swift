@@ -27,11 +27,13 @@ struct TutorialView: View {
         VStack {
           Text("\(page1.text1)")
           .multilineTextAlignment(.center)
+          .font(.custom("OpenDyslexic-Regular", size: 18))
           Image("\(page1.monsterImage)")
           .padding(.all)
         Text("\(page1.text2)")
           .multilineTextAlignment(.center)
           .padding()
+          .font(.custom("OpenDyslexic-Regular", size: 18))
             } //endVStack
         } //endZStack
     } //endView
