@@ -10,7 +10,7 @@ import SwiftUI
 struct TutorialScenes: View {
     @State private var Changer: Int = 0
     @State var Controllami:  Bool = true // variabile di controllo per evitare cicli infiniti
-    @State var Inv: Double = 0.0
+    @State var Inv: Double = 0.0 //Variabile per nascondere il bottone 
     
     var body: some View {
         NavigationView{
