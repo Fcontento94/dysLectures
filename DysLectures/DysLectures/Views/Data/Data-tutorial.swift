@@ -8,6 +8,8 @@
 import Foundation
 import SwiftUI
 
+//Pagine del tutorial
+
 struct Tutorial {
     var text1: String
     var monsterImage: String
@@ -15,16 +17,21 @@ struct Tutorial {
     
 }
 
+
 var pageTutorial: [Tutorial] = []
 
 var page1: Tutorial = Tutorial(text1: "Oh, I heard a strange noise…", monsterImage: "hidden-monster", text2: "It seems there is someone in that bush!")
-
 var page2: Tutorial = Tutorial(text1: "Let me see…", monsterImage: "hidden-monster", text2: "Who is there!?")
 
-var page3: Tutorial = Tutorial(text1: "Oh, hi! I didn’t see you…", monsterImage: "hidden-monster", text2: "I am Coco the most amazing monster in the world!")
+// in questo caso l'immagine scelta del mostro dipenderà dalla scelta del bambino
+// come fare in modo che ci sia la selezione!?
 
-var page4: Tutorial = Tutorial(text1: "frase superiore pagina 4 tutorial", monsterImage: "hidden-monster", text2: "frase inferiore pagina 4 tutorial")
+var page3: Tutorial = Tutorial(text1: "Oh, hi! I didn’t see you…", monsterImage: "monster1", text2: "I am Coco the most amazing monster in the world!")
+var page4: Tutorial = Tutorial(text1: "frase superiore pagina 4 tutorial", monsterImage: "monster2", text2: "frase inferiore pagina 4 tutorial")
 
+
+
+// immagini di background da alternare nelle view
 
 
 struct Background {
@@ -32,9 +39,7 @@ struct Background {
 }
 
 var pageBackgounds: [Tutorial] = []
-
 var bg1: Background = Background(bgImage: "bg1")
-
 var bg2: Background = Background(bgImage: "bg2")
 
 
