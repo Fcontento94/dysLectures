@@ -31,32 +31,25 @@ struct MonsterView: View {
                 VStack{
                     
                     Image("monster1")
-                    Text("""
-A Red Monster
-with blue eyes
-""")
+                    Text("")
                         .multilineTextAlignment(.center)
                     .padding(.all)} //mostro numero 1 e descrizione
                 
                 VStack{
                     Image("monster2")
-                        .accessibilityAddTraits([.isButton])
+                        .
+                    accessibilityAddTraits([.isButton])
                         .foregroundColor(Color.red)
                         .padding(.all, 0.0)
-                    Text("""
-A Purple Alien
-with three red eyes
-""")
+                    Text("")
                         .multilineTextAlignment(.center)
                     .padding(.all)} //mostro numero 2 e descrizione
                 
                 VStack{
                     Image("monster3")
                         .padding(.all)
-                    Text("""
-A Pizza Monster
-with red tomatoes
-""")
+                    Text("")
+                    
                         .multilineTextAlignment(.center)
                         .padding([.leading, .bottom, .trailing])
                 } //mostro numero 3 e descrizione

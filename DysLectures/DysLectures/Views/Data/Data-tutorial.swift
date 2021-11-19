@@ -13,7 +13,7 @@ import SwiftUI
 struct Tutorial {
     var text1: String
     var monsterImage: String
-    var text2: String
+    var text2: String           
     
 }
 
