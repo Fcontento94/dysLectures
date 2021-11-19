@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "bg-dyslexic-ruler.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "bg-dyslexic-ruler-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "bg-dyslexic-ruler-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -82,9 +82,9 @@ Goats Gruff
         }
 }
 
-struct BookView_Previews: PreviewProvider {
-    static var previews: some View {
-        BookView()
+    struct BookView_Previews: PreviewProvider {
+        static var previews: some View {
+            BookView()
+        }
     }
-}
-}
+    }

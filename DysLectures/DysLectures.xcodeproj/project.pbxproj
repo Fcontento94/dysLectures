@@ -16,6 +16,7 @@
 		A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3192746F1E800D7EA54 /* BookView.swift */; };
 		A4607323274818B100AA7CEA /* Data-Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607322274818B100AA7CEA /* Data-Stories.swift */; };
 		A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A460732427481CAC00AA7CEA /* Data-Monsters.swift */; };
+		A4607327274822E500AA7CEA /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607326274822E500AA7CEA /* ReadingView.swift */; };
 		A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E150392746707500A4FA4B /* DysLecturesApp.swift */; };
 		A4E1503C2746707500A4FA4B /* MonsterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1503B2746707500A4FA4B /* MonsterView.swift */; };
 		A4E1503E2746707600A4FA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E1503D2746707600A4FA4B /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		A443C3192746F1E800D7EA54 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		A4607322274818B100AA7CEA /* Data-Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Stories.swift"; sourceTree = "<group>"; };
 		A460732427481CAC00AA7CEA /* Data-Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Monsters.swift"; sourceTree = "<group>"; };
+		A4607326274822E500AA7CEA /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
 		A4E150362746707500A4FA4B /* DysLectures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DysLectures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E150392746707500A4FA4B /* DysLecturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DysLecturesApp.swift; sourceTree = "<group>"; };
 		A4E1503B2746707500A4FA4B /* MonsterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				A443C3142746EE1500D7EA54 /* TutorialView.swift */,
 				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
 				A443C3192746F1E800D7EA54 /* BookView.swift */,
+				A4607326274822E500AA7CEA /* ReadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E1503C2746707500A4FA4B /* MonsterView.swift in Sources */,
+				A4607327274822E500AA7CEA /* ReadingView.swift in Sources */,
 				A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */,
 				A443C3182746EEC500D7EA54 /* Data-tutorial.swift in Sources */,
 				A4607323274818B100AA7CEA /* Data-Stories.swift in Sources */,
