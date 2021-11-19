@@ -10,6 +10,7 @@ import SwiftUI
 struct TutorialScenes: View {
     
     @State private var Changer: Int = 0
+    @State var Controllami:  Bool = true // variabile di controllo per evitare cicli infiniti
     
     var body: some View {
         ZStack{
@@ -19,19 +20,19 @@ struct TutorialScenes: View {
                 .aspectRatio(contentMode: .fill)
                 .padding(.bottom)
             VStack{
-                Text("\(upWords[0])")
+                Text("\(upWords[Changer])")
                 .multilineTextAlignment(.center)
                 .font(.custom("OpenDyslexic-Regular", size: 18))
                 
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {if Controllami{
+                    Controllami = false
+                    Changer = Changer + 1}}) //Controlla se il bottone è stato cliccato almeno una volta per permettere il cambio dei testi
+                {
                     Image("hidden-monster")
                     .padding(.all)
                 }
                 
-            
-                
-                Text("\(downWords[0])")
+                Text("\(downWords[Changer])")
                 .multilineTextAlignment(.center)
                 .padding()
                 .font(.custom("OpenDyslexic-Regular", size: 18))
@@ -46,10 +47,5 @@ struct TutorialScenes_Previews: PreviewProvider {
     }
 }
 
-func Controllo(Cont : Bool, Inc : Int){
-    if Cont {
-        
-    }
-    
-}
+
 
