@@ -32,8 +32,7 @@ struct TutorialView: View {
         Text("\(page1.text2)")
           .multilineTextAlignment(.center)
           .padding()
-        Text("ti odio federica")
-            Text("anche io ti odio")
+        Text("try")
             } //endVStack
         } //endZStack
     } //endView
