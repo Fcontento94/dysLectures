@@ -33,12 +33,12 @@ struct ReadingView: View {
                 
                 VStack{
                     
-                    Text("")
+                    Text("Prima parte")
                         .multilineTextAlignment(.leading)
                     .padding(.all)} //mostro numero 1 e descrizione
                 
                 VStack{
-                    Image("monster2")
+                    Text("Seconda parte")
                         .
                     accessibilityAddTraits([.isButton])
                         .foregroundColor(Color.red)
@@ -48,9 +48,8 @@ struct ReadingView: View {
                     .padding(.all)} //mostro numero 2 e descrizione
                 
                 VStack{
-                    Image("monster3")
+                    Text("Terza parte")
                         .padding(.all)
-                    Text("")
                     
                         .multilineTextAlignment(.center)
                         .padding([.leading, .bottom, .trailing])

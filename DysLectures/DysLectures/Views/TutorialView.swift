@@ -34,7 +34,6 @@ struct TutorialView: View {
           .multilineTextAlignment(.center)
           .padding()
           .font(.custom("OpenDyslexic-Regular", size: 18))
-        Text("federica mi hai fatto perdere tutti i file")
             } //endVStack
         } //endZStack
     } //endView

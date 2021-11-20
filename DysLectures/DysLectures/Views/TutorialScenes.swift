@@ -41,7 +41,7 @@ struct TutorialScenes: View {
                 .font(.custom("OpenDyslexic-Regular", size: 18))
 
                 NavigationLink(destination:MonsterView()){
-                    Text("It's a...")
+                    Text("Let me see!")
                         .foregroundColor(Color.blue)
                         .multilineTextAlignment(.center)
                         .font(.custom("OpenDyslexic-Regular", size: 18))
