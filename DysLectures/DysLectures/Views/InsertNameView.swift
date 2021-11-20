@@ -20,34 +20,44 @@ struct InsertNameView: View {
         
 
             
-        VStack{
-                
-                VStack{
-            Text("How can I call you?")
-                .font(.custom("OpenDyslexic-Regular", size: 18))
-                .padding(.all)
-            Image("monster1")
-                .padding(.all)
-                    
-                }
+
+            
+            
         
         Form {
             
             //horizontal stack che contiene textfield e bottoncino
             
-            HStack{
+                
             Section {
+                
+                
+                VStack{
+                        
+                        VStack{
+                    Text("How can I call you?")
+                        .font(.custom("OpenDyslexic-Regular", size: 18))
+                        .padding(.all)
+                    Image("monster1")
+                        .padding(.all)
+                        }
+
+
+                    
+                    HStack{
                 TextField("Your Name", text: $insertName)
                     .font(.custom("OpenDyslexic-Regular", size: 18))
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Image(systemName: "arrow.forward.circle")
+                                .foregroundColor(Color.red)
+                        }
+                        }
             } // Fine sezione dell'inserimento testo
                 
                 // confermare il nome con questo bottone
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Image(systemName: "arrow.forward.circle")
-                        .foregroundColor(Color.red)
-                }
-                
-            } // fine HStack
+
+
+ // fine HStack
         } // fine del form
         .padding(.top)
 
