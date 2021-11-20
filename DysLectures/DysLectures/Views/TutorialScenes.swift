@@ -42,11 +42,11 @@ struct TutorialScenes: View {
 
                 NavigationLink(destination:MonsterView()){
                     Text("Let me see!")
-                        .foregroundColor(Color.blue)
+                        .foregroundColor(Color.white)
                         .multilineTextAlignment(.center)
                         .font(.custom("OpenDyslexic-Regular", size: 18))
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.99, green: 0.833, blue: 0.832)/*@END_MENU_TOKEN@*/)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
                         .cornerRadius(18)
                         .opacity(Inv)
                 }
