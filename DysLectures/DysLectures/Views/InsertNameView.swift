@@ -17,9 +17,10 @@ struct InsertNameView: View {
         
         //inizio del form che contiene l'inserimento testo (TextField) e il bottoncino per confermare
         
-        
         Form {
             Section {
+        
+       
                         VStack{
                     Text("How can I call you?")
                         .font(.custom("OpenDyslexic-Regular", size: 18))
@@ -27,8 +28,7 @@ struct InsertNameView: View {
                         .padding(.all)
                     Image("monster1")
                         .padding(.all)
-
-
+                            
                     HStack{
                 TextField("Your Name", text: $insertName)
                     .font(.custom("OpenDyslexic-Regular", size: 18))
