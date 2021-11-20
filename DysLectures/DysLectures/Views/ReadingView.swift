@@ -41,6 +41,7 @@ Image("\(story1.chapter1[1])")
 
             // PARAGRAFO 1
             Text("\(story1.chapter1[2])")
+                .multilineTextAlignment(.leading)
                 .padding(.top)
                 .font(.custom("OpenDyslexic-Regular", size: 42))
 
