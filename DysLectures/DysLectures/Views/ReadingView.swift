@@ -22,44 +22,47 @@ struct ReadingView: View {
 
         VStack{
         
-            Text("Little Red Riding Wood") //sostituirr con la struttura del libro
-            Text("Chapter 1")
-                .padding(.bottom, 10.0)
+            Text("\(story1.title)")
+                .foregroundColor(Color(red: 0.764, green: 0.143, blue: 0.186))
+                .multilineTextAlignment(.center)
+                .padding(.top, 50.0)
+                .font(.custom("OpenDyslexic-Bold", size: 25))
             
-        ScrollView(.vertical, showsIndicators: false) {
+            Text("\(story1.chapter1[0])")
+                .multilineTextAlignment(.center)
+                .padding(.top, 1.0)
+                .font(.custom("OpenDyslexic-Bold", size: 25))
             
             
-           VStack(spacing: 20) {
+        ScrollView(.vertical, showsIndicators: true) {
+    
+            Image("book")
+
+            Text("\(story1.chapter1[1])")
+                .padding(.top)
+                .font(.custom("OpenDyslexic-Regular", size: 42))
+            
+            Image("book")
                 
-                VStack{
-                    
-                    Text("Prima parte")
-                        .multilineTextAlignment(.leading)
-                    .padding(.all)} //mostro numero 1 e descrizione
-                
-                VStack{
-                    Text("Seconda parte")
-                        .
-                    accessibilityAddTraits([.isButton])
-                        .foregroundColor(Color.red)
-                        .padding(.all, 0.0)
-                    Text("")
-                        .multilineTextAlignment(.center)
-                    .padding(.all)} //mostro numero 2 e descrizione
-                
-                VStack{
-                    Text("Terza parte")
-                        .padding(.all)
-                    
-                        .multilineTextAlignment(.center)
-                        .padding([.leading, .bottom, .trailing])
-                } //mostro numero 3 e descrizione
-                }
-            }
+            Text("\(story1.chapter1[2])")
+                .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                .padding(.top)
+                .font(.custom("OpenDyslexic-Regular", size: 42))
+            
+            Image("book")
+            
+            Text("\(story1.chapter1[3])")
+                .padding(.top)
+                .font(.custom("OpenDyslexic-Regular", size: 42))
+
+
+                } // fine vstack
+        }
+        .padding(.horizontal)
         }
         }
     }
-}
+
 
 struct ReadingView_Previews: PreviewProvider {
     static var previews: some View {

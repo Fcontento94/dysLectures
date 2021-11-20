@@ -41,6 +41,6 @@ struct Background {
 var pageBackgounds: [Tutorial] = []
 var bg1: Background = Background(bgImage: "bg1")
 var bg2: Background = Background(bgImage: "bg2")
-var bg3: Background = Background(bgImage: "bg-dyslexic-ruler")
+var bg3: Background = Background(bgImage: "dyslexic-ruler")
 
 

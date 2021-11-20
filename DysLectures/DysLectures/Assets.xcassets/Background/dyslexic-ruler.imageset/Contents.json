@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "bg-dyslexic-ruler.png",
+      "filename" : "bg-ruler.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "bg-dyslexic-ruler-1.png",
+      "filename" : "bg-ruler-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "bg-dyslexic-ruler-2.png",
+      "filename" : "bg-ruler-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
