@@ -11,59 +11,103 @@ struct BookView: View {
     var body: some View {
         
         ZStack {
-            Image("\(bg2.bgImage)")
+            Image("bg2")
                 .renderingMode(.original)
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
                 .padding(.bottom)
         
         VStack{
+            ScrollView(.horizontal, showsIndicators: false) {
         
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 20) {
-               
-                VStack{
-                    Image("book")
-                    Text("""
-Cinderella
-""")
-                        .multilineTextAlignment(.center)
-                    .padding(.all)} //libro numero 1 e descrizione
+// Scroll dei libri
+            
+        HStack {
                 
+// Start List
                 VStack{
-                    Image("book")
-                        .padding(.all)
-                    Text("""
-Little Red
-Riding Hood
-""")
-                        .multilineTextAlignment(.center)
-                    .padding(.all)} //libro numero 2 e descrizione
-                
-                VStack{
-                    Image("book")
-                        .padding(.all)
-                    Text("""
-The Three
-Little Pigs
-""")
+                    Image("\(story1.bookCover)")
+                    Text("\(story1.title)")
+                        .font(.custom("OpenDyslexic-Regular", size: 20))
+                        .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .padding(.all)
-                } //libro numero 3 e descrizione
-                
-                VStack{
-                    Image("book")
-                        .padding(.all)
-                    Text("""
-Three Billy
-Goats Gruff
-""")
-                        .multilineTextAlignment(.center)
-                        .padding(.all)
-                } //libro numero 4 e descrizione
-                
-                
+                    
                 }
+
+// nuovo libro
+                
+                VStack{
+                    Image("\(story2.bookCover)")
+                    Text("\(story2.title)")
+                        .font(.custom("OpenDyslexic-Regular", size: 20))
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                        .padding(.all)
+                    
+                }
+                
+                VStack{
+                    Image("\(story3.bookCover)")
+                    Text("\(story3.title)")
+                        .font(.custom("OpenDyslexic-Regular", size: 20))
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                        .padding(.all)
+                    
+                }
+
+// nuovo libro
+            
+            VStack{
+                Image("\(story2.bookCover)")
+                Text("\(story3.title)")
+                    .font(.custom("OpenDyslexic-Regular", size: 20))
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.all)
+                
+            }
+
+// nuovo libro
+            
+            VStack{
+                Image("\(story2.bookCover)")
+                Text("\(story3.title)")
+                    .font(.custom("OpenDyslexic-Regular", size: 20))
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.all)
+                
+            }
+
+// nuovo libro
+            
+            VStack{
+                Image("\(story2.bookCover)")
+                Text("\(story3.title)")
+                    .font(.custom("OpenDyslexic-Regular", size: 20))
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.all)
+                
+            }
+
+// nuovo libro
+            
+            VStack{
+                Image("\(story3.bookCover)")
+                Text("\(story3.title)")
+                    .font(.custom("OpenDyslexic-Regular", size: 20))
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.all)
+                
+            }
+
+// nuovo libro
+                
+            }
             }
         
         

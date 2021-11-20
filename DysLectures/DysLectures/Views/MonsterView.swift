@@ -13,7 +13,7 @@ struct MonsterView: View {
     var body: some View {
         
         ZStack {
-            Image("\(bg2.bgImage)")
+            Image("bg2")
                 .renderingMode(.original)
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)

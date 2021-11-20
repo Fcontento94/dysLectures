@@ -15,7 +15,7 @@ struct TutorialScenes: View {
     var body: some View {
         NavigationView{
         ZStack{
-            Image("\(bg1.bgImage)")
+            Image("bg1")
                 .renderingMode(.original)
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)

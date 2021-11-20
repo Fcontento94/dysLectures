@@ -13,13 +13,14 @@ struct ReadingView: View {
     var body: some View {
         
         ZStack {
-            Image("\(bg3.bgImage)")
+            Image("dyslexic-ruler")
                 .renderingMode(.original)
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
                 .padding(.bottom)
             //immagine del dyslexic ruler
 
+            // INIZIO STORIA
         VStack{
         
             Text("\(story1.title)")
@@ -33,30 +34,36 @@ struct ReadingView: View {
                 .padding(.top, 1.0)
                 .font(.custom("OpenDyslexic-Bold", size: 25))
             
-            
         ScrollView(.vertical, showsIndicators: true) {
     
-            Image("book")
+// IMMAGINE PARAGRAFO 1
+Image("\(story1.chapter1[1])")
 
-            Text("\(story1.chapter1[1])")
+            // PARAGRAFO 1
+            Text("\(story1.chapter1[2])")
                 .padding(.top)
                 .font(.custom("OpenDyslexic-Regular", size: 42))
-            
-            Image("book")
+
+// IMMAGINE DEL PARAGRAFO 2
+Image("\(story1.chapter1[3])")
                 
-            Text("\(story1.chapter1[2])")
+            //PARAGRAFO 2
+            Text("\(story1.chapter1[4])")
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                 .padding(.top)
                 .font(.custom("OpenDyslexic-Regular", size: 42))
+
+// IMMAGINE DEL PARAGRAFO 3
+Image("\(story1.chapter1[5])")
             
-            Image("book")
             
-            Text("\(story1.chapter1[3])")
+            //PARAGRAFO 3
+            Text("\(story1.chapter1[6])")
                 .padding(.top)
                 .font(.custom("OpenDyslexic-Regular", size: 42))
 
 
-                } // fine vstack
+                } //FINE STORIA > fine vstack
         }
         .padding(.horizontal)
         }

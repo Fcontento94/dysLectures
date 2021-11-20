@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D232A3127482D8400EDD617 /* DataAntonio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3027482D8400EDD617 /* DataAntonio.swift */; };
+		9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3027482D8400EDD617 /* Data-Text.swift */; };
 		9D232A3327482DEF00EDD617 /* TutorialScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3227482DEF00EDD617 /* TutorialScenes.swift */; };
 		9DC7A5CF274815DB005F9AA3 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */; };
 		9DC7A5D0274815DB005F9AA3 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */; };
 		9DC7A5D1274815DB005F9AA3 /* OpenDyslexic-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */; };
 		9DC7A5D2274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */; };
-		A443C3152746EE1500D7EA54 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3142746EE1500D7EA54 /* TutorialView.swift */; };
-		A443C3182746EEC500D7EA54 /* Data-tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3172746EEC500D7EA54 /* Data-tutorial.swift */; };
+		A4227EC0274960800027C25A /* Struct-Story1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EBF274960800027C25A /* Struct-Story1.swift */; };
+		A4227EC3274966C70027C25A /* Struct-Story2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EC2274966C70027C25A /* Struct-Story2.swift */; };
+		A4227EC5274966EF0027C25A /* Struct-Story3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EC4274966EF0027C25A /* Struct-Story3.swift */; };
+		A443C3152746EE1500D7EA54 /* old-TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3142746EE1500D7EA54 /* old-TutorialView.swift */; };
+		A443C3182746EEC500D7EA54 /* old-dataTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */; };
 		A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3192746F1E800D7EA54 /* BookView.swift */; };
 		A4496C59274938CD0050900D /* InsertNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4496C58274938CD0050900D /* InsertNameView.swift */; };
-		A4607323274818B100AA7CEA /* Data-Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607322274818B100AA7CEA /* Data-Stories.swift */; };
+		A4607323274818B100AA7CEA /* Struct-Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607322274818B100AA7CEA /* Struct-Stories.swift */; };
 		A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A460732427481CAC00AA7CEA /* Data-Monsters.swift */; };
 		A4607327274822E500AA7CEA /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607326274822E500AA7CEA /* ReadingView.swift */; };
 		A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E150392746707500A4FA4B /* DysLecturesApp.swift */; };
@@ -47,18 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D232A3027482D8400EDD617 /* DataAntonio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAntonio.swift; sourceTree = "<group>"; };
+		9D232A3027482D8400EDD617 /* Data-Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Text.swift"; sourceTree = "<group>"; };
 		9D232A3227482DEF00EDD617 /* TutorialScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScenes.swift; sourceTree = "<group>"; };
 		9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
 		9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.otf"; sourceTree = "<group>"; };
 		9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.otf"; sourceTree = "<group>"; };
 		9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.otf"; sourceTree = "<group>"; };
 		9DC7A5D327481630005F9AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A443C3142746EE1500D7EA54 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
-		A443C3172746EEC500D7EA54 /* Data-tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-tutorial.swift"; sourceTree = "<group>"; };
+		A4227EBF274960800027C25A /* Struct-Story1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Story1.swift"; sourceTree = "<group>"; };
+		A4227EC2274966C70027C25A /* Struct-Story2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Story2.swift"; sourceTree = "<group>"; };
+		A4227EC4274966EF0027C25A /* Struct-Story3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Story3.swift"; sourceTree = "<group>"; };
+		A443C3142746EE1500D7EA54 /* old-TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-TutorialView.swift"; sourceTree = "<group>"; };
+		A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-dataTutorial.swift"; sourceTree = "<group>"; };
 		A443C3192746F1E800D7EA54 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		A4496C58274938CD0050900D /* InsertNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertNameView.swift; sourceTree = "<group>"; };
-		A4607322274818B100AA7CEA /* Data-Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Stories.swift"; sourceTree = "<group>"; };
+		A4607322274818B100AA7CEA /* Struct-Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Stories.swift"; sourceTree = "<group>"; };
 		A460732427481CAC00AA7CEA /* Data-Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Monsters.swift"; sourceTree = "<group>"; };
 		A4607326274822E500AA7CEA /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
 		A4E150362746707500A4FA4B /* DysLectures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DysLectures.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,11 +115,30 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		A4227EBE2749602A0027C25A /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				A4227EBF274960800027C25A /* Struct-Story1.swift */,
+				A4227EC2274966C70027C25A /* Struct-Story2.swift */,
+				A4227EC4274966EF0027C25A /* Struct-Story3.swift */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		A4227EC12749641E0027C25A /* old */ = {
+			isa = PBXGroup;
+			children = (
+				A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */,
+				A443C3142746EE1500D7EA54 /* old-TutorialView.swift */,
+			);
+			path = old;
+			sourceTree = "<group>";
+		};
 		A443C3112746E64600D7EA54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A4227EC12749641E0027C25A /* old */,
 				A443C3162746EE9A00D7EA54 /* Data */,
-				A443C3142746EE1500D7EA54 /* TutorialView.swift */,
 				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
 				A443C3192746F1E800D7EA54 /* BookView.swift */,
 				A4607326274822E500AA7CEA /* ReadingView.swift */,
@@ -126,10 +151,10 @@
 		A443C3162746EE9A00D7EA54 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				A443C3172746EEC500D7EA54 /* Data-tutorial.swift */,
-				A4607322274818B100AA7CEA /* Data-Stories.swift */,
+				A4227EBE2749602A0027C25A /* Stories */,
+				A4607322274818B100AA7CEA /* Struct-Stories.swift */,
 				A460732427481CAC00AA7CEA /* Data-Monsters.swift */,
-				9D232A3027482D8400EDD617 /* DataAntonio.swift */,
+				9D232A3027482D8400EDD617 /* Data-Text.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -326,16 +351,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4227EC3274966C70027C25A /* Struct-Story2.swift in Sources */,
 				A4E1503C2746707500A4FA4B /* MonsterView.swift in Sources */,
 				A4496C59274938CD0050900D /* InsertNameView.swift in Sources */,
 				A4607327274822E500AA7CEA /* ReadingView.swift in Sources */,
-				9D232A3127482D8400EDD617 /* DataAntonio.swift in Sources */,
+				A4227EC5274966EF0027C25A /* Struct-Story3.swift in Sources */,
+				9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */,
 				A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */,
 				9D232A3327482DEF00EDD617 /* TutorialScenes.swift in Sources */,
-				A443C3182746EEC500D7EA54 /* Data-tutorial.swift in Sources */,
-				A4607323274818B100AA7CEA /* Data-Stories.swift in Sources */,
+				A443C3182746EEC500D7EA54 /* old-dataTutorial.swift in Sources */,
+				A4607323274818B100AA7CEA /* Struct-Stories.swift in Sources */,
 				A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */,
-				A443C3152746EE1500D7EA54 /* TutorialView.swift in Sources */,
+				A443C3152746EE1500D7EA54 /* old-TutorialView.swift in Sources */,
+				A4227EC0274960800027C25A /* Struct-Story1.swift in Sources */,
 				A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
