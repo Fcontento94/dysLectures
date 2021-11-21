@@ -12,7 +12,14 @@ struct BookView: View {
     
     var body: some View {
         
-                
+        ZStack {
+            Image("bg2")
+                .renderingMode(.original)
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .padding(.bottom)
+
+    
         VStack{
         
             Text("Library")
@@ -198,6 +205,7 @@ struct BookView: View {
         }
         .padding(.all)
         }
+    }
 
         
 }

@@ -19,6 +19,12 @@ struct InsertNameView: View {
         
         //inizio del form che contiene l'inserimento testo (TextField) e il bottoncino per confermare
         
+        ZStack {
+            Image("bg2")
+                .renderingMode(.original)
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .padding(.bottom)
        
                         VStack{
                     Text("What did you say your name was?")
@@ -70,6 +76,7 @@ struct InsertNameView: View {
     } // fine del form
         .padding(.top)
         
+    }
     }
 
 }

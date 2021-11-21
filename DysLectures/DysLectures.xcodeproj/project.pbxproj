@@ -132,6 +132,7 @@
 			children = (
 				A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */,
 				A443C3142746EE1500D7EA54 /* old-TutorialView.swift */,
+				9D232A3227482DEF00EDD617 /* TutorialScenes.swift */,
 			);
 			path = old;
 			sourceTree = "<group>";
@@ -160,10 +161,10 @@
 		A4A5BE46274A3BF100E61AB0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
+				A4A5BE47274A3C2600E61AB0 /* OnboardingView.swift */,
 				A443C3192746F1E800D7EA54 /* BookView.swift */,
 				A4607326274822E500AA7CEA /* ReadingView.swift */,
-				9D232A3227482DEF00EDD617 /* TutorialScenes.swift */,
+				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
 				A4496C58274938CD0050900D /* InsertNameView.swift */,
 			);
 			path = Views;
@@ -196,7 +197,6 @@
 				9DC7A5CA2748158F005F9AA3 /* Fonts */,
 				A443C3112746E64600D7EA54 /* Views */,
 				A4E150392746707500A4FA4B /* DysLecturesApp.swift */,
-				A4A5BE47274A3C2600E61AB0 /* OnboardingView.swift */,
 				A4E1503D2746707600A4FA4B /* Assets.xcassets */,
 				A4E1503F2746707600A4FA4B /* Preview Content */,
 			);

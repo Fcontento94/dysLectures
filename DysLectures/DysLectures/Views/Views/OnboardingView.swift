@@ -22,7 +22,18 @@ struct HomeView: View {
         
         NavigationView{
             
+            //lo so che fa schifo graficamente, ho fatto solo una prova di come dovrebbe apparire la homepage... solo che dobbiamo sistemare sto schifo ahhahahaha
+            
+            ZStack {
+                Image("bg2")
+                    .renderingMode(.original)
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fill)
+                    .padding(.bottom)
+            
             VStack{
+                
+                //magari ci meniamo un bottone? Anche se secondo me sarebbe meglio fare una tab bar
         
                 Button(action:{
                     
@@ -32,7 +43,7 @@ struct HomeView: View {
                         .padding()
                         .foregroundColor(Color.white)
                         .frame(width: 200, height: 200)
-                        .background(Color.red)
+                        .background(Color.blue)
                         .cornerRadius(400)
                         
                         
@@ -40,7 +51,7 @@ struct HomeView: View {
                 
     
             }
-            .navigationTitle("dysLectures")
+            .navigationTitle("Home")
             
             
         }
@@ -179,7 +190,7 @@ struct TutorialPage: View {
         
     }
 
-
+}
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {

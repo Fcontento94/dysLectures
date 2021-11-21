@@ -12,6 +12,12 @@ struct MonsterView: View {
     
     var body: some View {
         
+        ZStack {
+            Image("bg2")
+                .renderingMode(.original)
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .padding(.bottom)
                 
         VStack{
         
@@ -138,7 +144,7 @@ struct MonsterView: View {
         .padding(.all)
         }
 
-        
+    }
 }
 
 struct MonsterView_Previews: PreviewProvider {
