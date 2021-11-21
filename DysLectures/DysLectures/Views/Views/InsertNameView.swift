@@ -34,7 +34,7 @@ struct InsertNameView: View {
             
                         VStack{
                     Text("What did you say your name was?")
-                                .padding(.all, 45.0)
+                                .padding([.top, .leading, .trailing], 80.0)
                                 .multilineTextAlignment(.center)
                                 .font(.custom("OpenDyslexic-Bold", size: 18))
                         .scaleEffect(animationScale)
