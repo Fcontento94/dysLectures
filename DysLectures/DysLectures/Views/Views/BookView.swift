@@ -34,7 +34,7 @@ NavigationView{
 
             ScrollView(.horizontal, showsIndicators: true) {
                 
-                HStack(spacing: 20) {
+                HStack(alignment: .center, spacing: 20) {
 
                     /*
                      Button(action: {
@@ -49,7 +49,6 @@ NavigationView{
                     VStack{
                         
                         Button(action:{
-                            
                             
                     
                         }, label: {
@@ -82,7 +81,7 @@ NavigationView{
                                 
                         })
                     }
-                    .padding(.all)
+                    .padding(.all, 0.0)
                     
                     VStack{
                         
@@ -151,6 +150,7 @@ NavigationView{
                     
                 }
                 .padding(.all, 50.0)
+                
             }
         
         
@@ -159,7 +159,8 @@ NavigationView{
             .padding(.all)
             }
 
-        } //end Navigation
+        }            .navigationBarHidden(false)
+ //end Navigation
         
     } // end view
 }
