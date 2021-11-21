@@ -10,6 +10,9 @@ import SwiftUI
 struct InsertNameView: View {
     
     @State private var insertName = ""
+    @State var animationOpacity = 0.0
+    @State var animationScale :CGFloat = 1
+
     
     
     var body: some View {
@@ -17,16 +20,26 @@ struct InsertNameView: View {
         
         //inizio del form che contiene l'inserimento testo (TextField) e il bottoncino per confermare
         
-        
-        
        
                         VStack{
                     Text("How can I call you?")
                         .font(.custom("OpenDyslexic-Regular", size: 18))
                         .multilineTextAlignment(.center)
                         .padding(.all)
+                        .scaleEffect(animationScale)
+                        .onAppear{
+                            let baseAnimation = Animation.easeInOut(duration: 5)
+                                    let repeated = baseAnimation.repeatForever(autoreverses: true)
+
+                                    withAnimation(repeated) {
+                                        animationScale = 0.9
+                                    }
+                    }
+    
+                            
                     Image("monster1")
                         .padding(.all)
+       
                             
                             Form {
                                 Section {
@@ -37,9 +50,17 @@ struct InsertNameView: View {
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Image(systemName: "arrow.forward.circle")
                                 .foregroundColor(Color.red)}
+                                
+                       
                                 } // Fine HStack
             } //Fine VStack
-        }
+                               
+        }  .opacity(animationOpacity)
+                                .onAppear{
+                                    let fadein = Animation.easeIn(duration: 0.5)
+                                    withAnimation(fadein){
+                                        animationOpacity = 1.0}}
+                            
     } // fine del form
         .padding(.top)
         
@@ -52,3 +73,4 @@ struct InsertNameView_Previews: PreviewProvider {
         InsertNameView()
     }
 }
+

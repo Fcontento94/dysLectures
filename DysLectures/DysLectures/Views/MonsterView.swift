@@ -18,6 +18,7 @@ struct MonsterView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
                 .padding(.bottom)
+                
         VStack{
         
             Text("It seems like…")
