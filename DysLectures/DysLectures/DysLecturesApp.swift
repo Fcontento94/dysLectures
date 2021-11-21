@@ -11,7 +11,7 @@ import SwiftUI
 struct DysLecturesApp: App {
     var body: some Scene {
         WindowGroup {
-            InsertNameView()
+            HomeView()
         }
     }
 }

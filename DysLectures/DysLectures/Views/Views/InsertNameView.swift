@@ -12,7 +12,6 @@ struct InsertNameView: View {
     @State private var insertName = ""
     @State var animationOpacity = 0.0
     @State var animationScale :CGFloat = 1
-
     
     
     var body: some View {
@@ -22,10 +21,10 @@ struct InsertNameView: View {
         
        
                         VStack{
-                    Text("How can I call you?")
-                        .font(.custom("OpenDyslexic-Regular", size: 18))
-                        .multilineTextAlignment(.center)
-                        .padding(.all)
+                    Text("What did you say your name was?")
+                                .padding(.all, 45.0)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("OpenDyslexic-Bold", size: 18))
                         .scaleEffect(animationScale)
                         .onAppear{
                             let baseAnimation = Animation.easeInOut(duration: 5)
