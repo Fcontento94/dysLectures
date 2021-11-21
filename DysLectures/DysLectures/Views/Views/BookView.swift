@@ -12,13 +12,14 @@ struct BookView: View {
     
     var body: some View {
         
+
         ZStack {
             Image("bg2")
                 .renderingMode(.original)
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
                 .padding(.bottom)
-
+            
     
         VStack{
         
@@ -31,7 +32,8 @@ struct BookView: View {
 //                .background(Color(red: 1.001, green: 0.326, blue: 0.391))
 //                .cornerRadius(20)
 
-            
+            NavigationView {
+
         ScrollView(.horizontal, showsIndicators: true) {
             
             
@@ -101,6 +103,7 @@ struct BookView: View {
                     })
                     
                     
+                }
                 }
                 
                 VStack{
@@ -206,9 +209,8 @@ struct BookView: View {
         .padding(.all)
         }
     }
-
-        
-}
+    }
+   
 
 struct BookView_Previews: PreviewProvider {
     static var previews: some View {

@@ -44,8 +44,8 @@ struct OnboardingView: View {
 //                .cornerRadius(50)
 //                .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
             
-//            InsertNameView()
-//                .background(Color.white)
+            InsertNameView()
+                .background(Color.white)
             
 //            TutorialPage(upText: "\(upWords[4])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[4])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
 //                .frame(width: 350.0, height: 500.0)
