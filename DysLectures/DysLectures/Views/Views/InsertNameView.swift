@@ -29,7 +29,7 @@ struct InsertNameView: View {
         
         ZStack{
             
-            Rectangle().fill()              .frame(width: 400, height: 900)
+            Rectangle().fill().frame(width: 400, height: 900)
                 .foregroundColor(Color(red: 0.949, green: 0.949, blue: 0.971))
             
                         VStack{

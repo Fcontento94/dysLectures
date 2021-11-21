@@ -12,6 +12,7 @@ struct BookView: View {
     
     var body: some View {
         
+NavigationView{
 
         ZStack {
             Image("bg2")
@@ -19,7 +20,6 @@ struct BookView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
                 .padding(.bottom)
-            
     
         VStack{
         
@@ -32,40 +32,53 @@ struct BookView: View {
 //                .background(Color(red: 1.001, green: 0.326, blue: 0.391))
 //                .cornerRadius(20)
 
-
             ScrollView(.horizontal, showsIndicators: true) {
                 
-                
                 HStack(spacing: 20) {
-                    
+
+                    /*
+                     Button(action: {
+                         print("Floating Button Click")
+                     }, label: {
+                         NavigationLink(destination: AddItemView()) {
+                              Text("Open View")
+                          }
+                     })
+                     */
                     
                     VStack{
                         
                         Button(action:{
                             
+                            
+                    
                         }, label: {
-                            VStack{
-                                
-                                Text("\(story1.title)")
-                                    .font(.custom("OpenDyslexic-Regular", size: 18))
-                                    .frame(width: 150, height: 100)
-                                    .multilineTextAlignment(.center)
-                                    .foregroundColor(Color.black)
-                                
-                                Image("\(story1.bookCover)")
-                                .font(.custom("OpenDyslexic-Bold", size: 18))
-                                .padding()
-
-                                
-                                Text("Read!")
+                            
+                            NavigationLink(destination: ReadingView()) {
+                                VStack{
+                                    
+                                    Text("\(story1.title)")
+                                        .font(.custom("OpenDyslexic-Regular", size: 18))
+                                        .frame(width: 150, height: 100)
+                                        .multilineTextAlignment(.center)
+                                        .foregroundColor(Color.black)
+                                    
+                                    Image("\(story1.bookCover)")
+                                    .font(.custom("OpenDyslexic-Bold", size: 18))
                                     .padding()
-                                    .font(.custom("OpenDyslexic-Bold", size: 20))
-                                 
-                                    .foregroundColor(Color.white)
-                                    .frame(width: 150, height: 60)
-                                    .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
-                                    .cornerRadius(20)
-                            }
+
+                                    
+                                    Text("Read!")
+                                        .padding()
+                                        .font(.custom("OpenDyslexic-Bold", size: 20))
+                                     
+                                        .foregroundColor(Color.white)
+                                        .frame(width: 150, height: 60)
+                                        .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                        .cornerRadius(20)
+                                }
+                             }
+                            
                                 
                         })
                     }
@@ -146,9 +159,12 @@ struct BookView: View {
             .padding(.all)
             }
 
-        }
-    }
+        } //end Navigation
+        
+    } // end view
+}
    
+
 
 struct BookView_Previews: PreviewProvider {
     static var previews: some View {
