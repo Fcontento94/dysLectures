@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3027482D8400EDD617 /* Data-Text.swift */; };
-		9D232A3327482DEF00EDD617 /* TutorialScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3227482DEF00EDD617 /* TutorialScenes.swift */; };
+		9D232A3327482DEF00EDD617 /* old-TutorialScenes(Anto).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */; };
 		9DC7A5CF274815DB005F9AA3 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */; };
 		9DC7A5D0274815DB005F9AA3 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */; };
 		9DC7A5D1274815DB005F9AA3 /* OpenDyslexic-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */; };
@@ -23,7 +23,8 @@
 		A4607323274818B100AA7CEA /* Struct-Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607322274818B100AA7CEA /* Struct-Stories.swift */; };
 		A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A460732427481CAC00AA7CEA /* Data-Monsters.swift */; };
 		A4607327274822E500AA7CEA /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4607326274822E500AA7CEA /* ReadingView.swift */; };
-		A4A5BE48274A3C2600E61AB0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BE47274A3C2600E61AB0 /* OnboardingView.swift */; };
+		A4A5BE48274A3C2600E61AB0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BE47274A3C2600E61AB0 /* HomeView.swift */; };
+		A4A5BE8A274AA3C200E61AB0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BE89274AA3C100E61AB0 /* OnboardingView.swift */; };
 		A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E150392746707500A4FA4B /* DysLecturesApp.swift */; };
 		A4E1503C2746707500A4FA4B /* MonsterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1503B2746707500A4FA4B /* MonsterView.swift */; };
 		A4E1503E2746707600A4FA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E1503D2746707600A4FA4B /* Assets.xcassets */; };
@@ -52,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		9D232A3027482D8400EDD617 /* Data-Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Text.swift"; sourceTree = "<group>"; };
-		9D232A3227482DEF00EDD617 /* TutorialScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScenes.swift; sourceTree = "<group>"; };
+		9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-TutorialScenes(Anto).swift"; sourceTree = "<group>"; };
 		9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
 		9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.otf"; sourceTree = "<group>"; };
 		9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.otf"; sourceTree = "<group>"; };
@@ -68,7 +69,8 @@
 		A4607322274818B100AA7CEA /* Struct-Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Stories.swift"; sourceTree = "<group>"; };
 		A460732427481CAC00AA7CEA /* Data-Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Monsters.swift"; sourceTree = "<group>"; };
 		A4607326274822E500AA7CEA /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
-		A4A5BE47274A3C2600E61AB0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A4A5BE47274A3C2600E61AB0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4A5BE89274AA3C100E61AB0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A4E150362746707500A4FA4B /* DysLectures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DysLectures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E150392746707500A4FA4B /* DysLecturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DysLecturesApp.swift; sourceTree = "<group>"; };
 		A4E1503B2746707500A4FA4B /* MonsterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterView.swift; sourceTree = "<group>"; };
@@ -132,7 +134,7 @@
 			children = (
 				A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */,
 				A443C3142746EE1500D7EA54 /* old-TutorialView.swift */,
-				9D232A3227482DEF00EDD617 /* TutorialScenes.swift */,
+				9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */,
 			);
 			path = old;
 			sourceTree = "<group>";
@@ -161,13 +163,22 @@
 		A4A5BE46274A3BF100E61AB0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A4A5BE47274A3C2600E61AB0 /* OnboardingView.swift */,
+				A4A5BE8B274AA44900E61AB0 /* Onboarding */,
+				A4A5BE47274A3C2600E61AB0 /* HomeView.swift */,
 				A443C3192746F1E800D7EA54 /* BookView.swift */,
 				A4607326274822E500AA7CEA /* ReadingView.swift */,
 				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
 				A4496C58274938CD0050900D /* InsertNameView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A4A5BE8B274AA44900E61AB0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4A5BE89274AA3C100E61AB0 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		A4E1502D2746707500A4FA4B = {
@@ -365,16 +376,17 @@
 				A4227EC3274966C70027C25A /* Struct-Story2.swift in Sources */,
 				A4E1503C2746707500A4FA4B /* MonsterView.swift in Sources */,
 				A4496C59274938CD0050900D /* InsertNameView.swift in Sources */,
-				A4A5BE48274A3C2600E61AB0 /* OnboardingView.swift in Sources */,
+				A4A5BE48274A3C2600E61AB0 /* HomeView.swift in Sources */,
 				A4607327274822E500AA7CEA /* ReadingView.swift in Sources */,
 				A4227EC5274966EF0027C25A /* Struct-Story3.swift in Sources */,
 				9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */,
 				A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */,
-				9D232A3327482DEF00EDD617 /* TutorialScenes.swift in Sources */,
+				9D232A3327482DEF00EDD617 /* old-TutorialScenes(Anto).swift in Sources */,
 				A443C3182746EEC500D7EA54 /* old-dataTutorial.swift in Sources */,
 				A4607323274818B100AA7CEA /* Struct-Stories.swift in Sources */,
 				A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */,
 				A443C3152746EE1500D7EA54 /* old-TutorialView.swift in Sources */,
+				A4A5BE8A274AA3C200E61AB0 /* OnboardingView.swift in Sources */,
 				A4227EC0274960800027C25A /* Struct-Story1.swift in Sources */,
 				A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */,
 			);

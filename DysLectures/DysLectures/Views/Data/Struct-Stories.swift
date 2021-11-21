@@ -25,14 +25,4 @@ struct Story {
 
 
 
-//var story2: Story = Story(title: "Cinderella", bookCover: "CinderellaCover", chapter1: ["","",""], chapter2: ["","",""], chapter3: ["","",""])
-
-// var story3: Story = Story(title: "Titolo", bookCover: "StoriaCover", chapter1: ["","",""], chapter2: ["","",""], chapter3: ["","",""])
-
-// var story4: Story = Story(title: "Titolo", bookCover: "StoriaCover", chapter1: ["","",""], chapter2: ["","",""], chapter3: ["","",""])
-
-// var story5: Story = Story(title: "Titolo", bookCover: "StoriaCover", chapter1: ["","",""], chapter2: ["","",""], chapter3: ["","",""])
-
-// var story6: Story = Story(title: "Titolo", bookCover: "StoriaCover", chapter1: ["","",""], chapter2: ["","",""], chapter3: ["","",""])
-
 

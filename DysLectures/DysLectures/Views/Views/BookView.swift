@@ -22,14 +22,14 @@ struct BookView: View {
     
         VStack{
         
-            Text("Library")
-                .padding()
-                .font(.custom("OpenDyslexic-Bold", size: 20))
-             
-                .foregroundColor(Color.white)
-                .frame(width: 250, height: 60)
-                .background(Color(red: 1.001, green: 0.326, blue: 0.391))
-                .cornerRadius(20)
+//            Text("Library")
+//                .padding()
+//                .font(.custom("OpenDyslexic-Bold", size: 20))
+//
+//                .foregroundColor(Color.white)
+//                .frame(width: 250, height: 60)
+//                .background(Color(red: 1.001, green: 0.326, blue: 0.391))
+//                .cornerRadius(20)
 
             
         ScrollView(.horizontal, showsIndicators: true) {
