@@ -21,18 +21,34 @@ struct HomeView: View {
         
         
         NavigationView{
+            
             VStack{
-        Text("The Main App")
-                    .padding()
+        
+                Button(action:{
+                    
+                }, label: {
+                    Text("Pick a book!")
+                        .font(.custom("OpenDyslexic-Bold", size: 25))
+                        .padding()
+                        .foregroundColor(Color.white)
+                        .frame(width: 200, height: 200)
+                        .background(Color.red)
+                        .cornerRadius(400)
+                        
+                        
+                })
                 
+    
             }
-            .navigationTitle("Home View")
+            .navigationTitle("dysLectures")
+            
             
         }
         .font(.custom("OpenDyslexic-Bold", size: 42))
         .fullScreenCover(isPresented: $shouldShowOnboarding, content: { OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
             
         })
+        
     }
     
 }
@@ -56,10 +72,11 @@ struct OnboardingView: View {
                 .background(Color.white)
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+
             
-            MonsterView()
-                .frame(width: 400.0, height: 900.0)
-                .background(Color.white)
+//            MonsterView()
+//                .frame(width: 400.0, height: 900.0)
+//                .background(Color.white)
             
             TutorialPage(upText: "\(upWords[2])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[2])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
                 .frame(width: 350.0, height: 500.0)
@@ -67,22 +84,22 @@ struct OnboardingView: View {
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
             
-            TutorialPage(upText: "\(upWords[3])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[3])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
-                .frame(width: 350.0, height: 500.0)
-                .background(Color.white)
-                .cornerRadius(50)
-                .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+//            TutorialPage(upText: "\(upWords[3])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[3])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
+//                .frame(width: 350.0, height: 500.0)
+//                .background(Color.white)
+//                .cornerRadius(50)
+//                .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
             
-            InsertNameView()
-                .background(Color.white)
+//            InsertNameView()
+//                .background(Color.white)
             
-            TutorialPage(upText: "\(upWords[4])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[4])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
-                .frame(width: 350.0, height: 500.0)
-                .background(Color.white)
-                .cornerRadius(50)
-                .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+//            TutorialPage(upText: "\(upWords[4])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[4])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
+//                .frame(width: 350.0, height: 500.0)
+//                .background(Color.white)
+//                .cornerRadius(50)
+//                .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
             
-            TutorialPage(upText: "\(upWords[5])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[5])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
+            TutorialPage(upText: "\(upWords[5])", imageTutorial: "book", bottomText: "\(downWords[5])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
                 .frame(width: 350.0, height: 500.0)
                 .background(Color.white)
                 .cornerRadius(50)

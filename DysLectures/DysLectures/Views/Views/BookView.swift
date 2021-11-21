@@ -1,134 +1,213 @@
 //
-//  BookView.swift
+//  TutorialView.swift
 //  DysLectures
 //
 //  Created by Federica Contento on 18/11/21.
 //
 
+
 import SwiftUI
 
 struct BookView: View {
+    
     var body: some View {
         
-        ZStack {
-            Image("bg2")
-                .renderingMode(.original)
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fill)
-                .padding(.bottom)
-        
+                
         VStack{
-            ScrollView(.horizontal, showsIndicators: false) {
         
-// Scroll dei libri
-            
-        HStack {
-                
-// Start List
-                VStack{
-                    Image("\(story1.bookCover)")
-                    Text("\(story1.title)")
-                        .font(.custom("OpenDyslexic-Regular", size: 20))
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                        .padding(.all)
-                    
-                }
+            Text("Library")
+                .padding()
+                .font(.custom("OpenDyslexic-Bold", size: 20))
+             
+                .foregroundColor(Color.white)
+                .frame(width: 250, height: 60)
+                .background(Color(red: 1.001, green: 0.326, blue: 0.391))
+                .cornerRadius(20)
 
-// nuovo libro
+            
+        ScrollView(.horizontal, showsIndicators: true) {
+            
+            
+            HStack(spacing: 20) {
+                
                 
                 VStack{
-                    Image("\(story2.bookCover)")
-                    Text("\(story2.title)")
-                        .font(.custom("OpenDyslexic-Regular", size: 20))
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                        .padding(.all)
+                    
+                    Button(action:{
+                        
+                    }, label: {
+                        VStack{
+                            
+                            Text("\(story1.title)")
+                                .font(.custom("OpenDyslexic-Regular", size: 18))
+                                .frame(width: 150, height: 100)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color.black)
+                            
+                            Image("\(story1.bookCover)")
+                            .font(.custom("OpenDyslexic-Bold", size: 18))
+                            .padding()
+
+                            
+                            Text("Read!")
+                                .padding()
+                                .font(.custom("OpenDyslexic-Bold", size: 20))
+                             
+                                .foregroundColor(Color.white)
+                                .frame(width: 150, height: 60)
+                                .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                .cornerRadius(20)
+                        }
+                            
+                    })
+                }
+                .padding(.all)
+                
+                VStack{
+                    
+                    Button(action:{
+                        
+                    }, label: {
+                        VStack{
+                            
+                            Text("\(story2.title)")
+                                .font(.custom("OpenDyslexic-Regular", size: 18))
+                                .frame(width: 150, height: 100)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color.black)
+                            
+                        Image("\(story2.bookCover)")
+                            .font(.custom("OpenDyslexic-Bold", size: 18))
+                            .padding()
+
+                            
+                            Text("Read!")
+                                .padding()
+                                .font(.custom("OpenDyslexic-Bold", size: 20))
+                             
+                                .foregroundColor(Color.white)
+                                .frame(width: 150, height: 60)
+                                .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                .cornerRadius(20)
+                        }
+                            
+                    })
+                    
                     
                 }
                 
                 VStack{
-                    Image("\(story3.bookCover)")
-                    Text("\(story3.title)")
-                        .font(.custom("OpenDyslexic-Regular", size: 20))
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                        .padding(.all)
                     
+                    Button(action:{
+                        
+                    }, label: {
+                        VStack{
+                            
+                            Text("\(story3.title)")
+                                .font(.custom("OpenDyslexic-Regular", size: 18))
+                                .frame(width: 150, height: 100)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color.black)
+                            
+                        Image("\(story3.bookCover)")
+                            .font(.custom("OpenDyslexic-Bold", size: 18))
+                            .padding()
+
+                            
+                            Text("Read!")
+                                .padding()
+                                .font(.custom("OpenDyslexic-Bold", size: 20))
+                             
+                                .foregroundColor(Color.white)
+                                .frame(width: 150, height: 60)
+                                .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                .cornerRadius(20)
+                        }
+                            
+                    })
                 }
+                
+                VStack{
+                    
+                    Button(action:{
+                        
+                    }, label: {
+                        VStack{
+                            
+                            Text("\(story1.title)")
+                                .font(.custom("OpenDyslexic-Regular", size: 18))
+                                .frame(width: 150, height: 100)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color.black)
+                            
+                        Image("\(story1.bookCover)")
+                            .font(.custom("OpenDyslexic-Bold", size: 18))
+                            .padding()
 
-// nuovo libro
-            
-            VStack{
-                Image("\(story2.bookCover)")
-                Text("\(story3.title)")
-                    .font(.custom("OpenDyslexic-Regular", size: 20))
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .padding(.all)
+                            
+                            Text("Read!")
+                                .padding()
+                                .font(.custom("OpenDyslexic-Bold", size: 20))
+                             
+                                .foregroundColor(Color.white)
+                                .frame(width: 150, height: 60)
+                                .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                .cornerRadius(20)
+                        }
+                            
+                    })
+                }
+                
+                VStack{
+                    
+                    Button(action:{
+                        
+                    }, label: {
+                        VStack{
+                            
+                            Text("\(story2.title)")
+                                .font(.custom("OpenDyslexic-Regular", size: 18))
+                                .frame(width: 150, height: 100)
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(Color.black)
+                            
+                        Image("\(story2.bookCover)")
+                            .font(.custom("OpenDyslexic-Bold", size: 18))
+                            .padding()
+
+                            
+                            Text("Read!")
+                                .padding()
+                                .font(.custom("OpenDyslexic-Bold", size: 20))
+                             
+                                .foregroundColor(Color.white)
+                                .frame(width: 150, height: 60)
+                                .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                .cornerRadius(20)
+                        }
+                            
+                    })
+                }
                 
             }
-
-// nuovo libro
-            
-            VStack{
-                Image("\(story2.bookCover)")
-                Text("\(story3.title)")
-                    .font(.custom("OpenDyslexic-Regular", size: 20))
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .padding(.all)
-                
-            }
-
-// nuovo libro
-            
-            VStack{
-                Image("\(story2.bookCover)")
-                Text("\(story3.title)")
-                    .font(.custom("OpenDyslexic-Regular", size: 20))
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .padding(.all)
-                
-            }
-
-// nuovo libro
-            
-            VStack{
-                Image("\(story3.bookCover)")
-                Text("\(story3.title)")
-                    .font(.custom("OpenDyslexic-Regular", size: 20))
-                    .fontWeight(.bold)
-                    .multilineTextAlignment(.center)
-                    .padding(.all)
-                
-            }
-
-// nuovo libro
-                
-            }
-            }
-        
-        
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("Read!")
-                    .font(.title)
-                    .fontWeight(.black)
-                    .foregroundColor(Color.white)
-                    .padding(.all)
-                    .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/16.0/*@END_MENU_TOKEN@*/)
-            
-            }
-            .padding(.all) //fine VStack
-    }
+            .padding(.all, 50.0)
         }
+    
+    
+            
+        }
+        .padding(.all)
+        }
+
+        
 }
 
-    struct BookView_Previews: PreviewProvider {
-        static var previews: some View {
-            BookView()
-        }
+struct BookView_Previews: PreviewProvider {
+    static var previews: some View {
+        BookView()
     }
-    }
+}
+
+
+
+    

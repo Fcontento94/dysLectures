@@ -144,7 +144,6 @@ struct MonsterView: View {
 struct MonsterView_Previews: PreviewProvider {
     static var previews: some View {
         MonsterView()
-            .preferredColorScheme(.light)
     }
 }
 

@@ -9,11 +9,11 @@ import SwiftUI
 
 struct InsertNameView: View {
     
-    @State private var insertName = ""
+    @State private var userName = ""
+    
     @State var animationOpacity = 0.0
     @State var animationScale :CGFloat = 1
-    
-    
+        
     var body: some View {
         
         
@@ -38,23 +38,30 @@ struct InsertNameView: View {
                             
                     Image("monster1")
                         .padding(.all)
-       
-                            
+
                             Form {
                                 Section {
                             
                     HStack{
-                TextField("Your Name", text: $insertName)
+                        TextField("Enter Your Name", text: $userName, onEditingChanged: {changed in print("onEditingChanged: \(changed)")
+                            
+                        }) {
+                            print("onCommit")
+                        }
+                        
                     .font(.custom("OpenDyslexic-Regular", size: 18))
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        
+                        Button(action: {}) {
                             Image(systemName: "arrow.forward.circle")
                                 .foregroundColor(Color.red)}
+                        .keyboardType(.default)
                                 
                        
                                 } // Fine HStack
             } //Fine VStack
                                
-        }  .opacity(animationOpacity)
+        }
+                            .opacity(animationOpacity)
                                 .onAppear{
                                     let fadein = Animation.easeIn(duration: 0.5)
                                     withAnimation(fadein){

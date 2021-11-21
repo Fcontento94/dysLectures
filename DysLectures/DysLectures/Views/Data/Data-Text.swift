@@ -10,7 +10,7 @@ let upWords = [
     "USERNAME - What a cool name!!",
     "Maybe you can help me with my Magic Books",
     "I will read you all the stories I have",
-    "Will you help me, USERNAME?",
+    "Are you going to help me?",
 
 ]
 
@@ -25,3 +25,7 @@ let downWords = [
     ""
 
 ]
+
+
+let userName = ["Your Name"]
+
