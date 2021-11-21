@@ -44,4 +44,8 @@ var story1: Story = Story(
     
     chapter2: ["","",""],
     
-    chapter3: ["","",""])
+    chapter3: ["","",""],
+
+    goToExercise: "Riordiniamo la storia!"
+
+)
