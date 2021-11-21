@@ -17,44 +17,60 @@ struct HomeView: View {
     
 //per ora facciamo test in questo modo
     
-    var body: some View {
+    @State private var Changer: Int = 0
+        @State var Controllami:  Bool = true // variabile di controllo per evitare cicli infiniti
+        @State var Inv: Double = 0.0 //Variabile per nascondere il bottone
         
-        
-        NavigationView{
-            
-            //lo so che fa schifo graficamente, ho fatto solo una prova di come dovrebbe apparire la homepage... solo che dobbiamo sistemare sto schifo ahhahahaha
-            
-            ZStack {
+        var body: some View {
+            NavigationView{
+            ZStack{
                 Image("bg2")
                     .renderingMode(.original)
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
-                    .padding(.bottom)
-            
-            VStack{
+                    .padding(.trailing, 80.0)
+                    .ignoresSafeArea()
                 
-                //magari ci meniamo un bottone? Anche se secondo me sarebbe meglio fare una tab bar
-        
-                Button(action:{
+                VStack{
                     
-                }, label: {
-                    Text("Pick a book!")
-                        .font(.custom("OpenDyslexic-Bold", size: 25))
-                        .padding()
-                        .foregroundColor(Color.white)
-                        .frame(width: 200, height: 200)
-                        .background(Color.blue)
-                        .cornerRadius(400)
+                    Button(action: {if Controllami{
+                        Controllami = false
+                        Changer = Changer + 1
+                        Inv = 0.8}}) //Controlla se il bottone è stato cliccato almeno una volta per permettere il cambio dei testi
+                    {
+                       
+                    }
+                   
+
+                    NavigationLink(destination:BookView()){
                         
+                        VStack{
                         
-                })
-                
-    
+                            Text("Welcome Back!")
+                                .foregroundColor(Color.black)
+                                .padding(.bottom, 50.0)
+                                .multilineTextAlignment(.center)
+                                .font(.custom("OpenDyslexic-Bold", size: 30))
+                            
+                            Image("\(monster1.imageMonster)")
+                                .padding(.bottom, 50.0)
+                 
+                            
+                            Text("Start Reading!")
+                                .padding()
+                                .font(.custom("OpenDyslexic-Bold", size: 25))
+                                .foregroundColor(Color.white)
+                                .frame(width: 250, height: 60)
+                                .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                .cornerRadius(20)
+                            
+                        }
+                    }
+                    
+                }
             }
-            .navigationTitle("Home")
-            
-            
-        }
+            }
+            .navigationBarHidden(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
         .font(.custom("OpenDyslexic-Bold", size: 42))
         .fullScreenCover(isPresented: $shouldShowOnboarding, content: { OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
             
@@ -190,7 +206,7 @@ struct TutorialPage: View {
         
     }
 
-}
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
