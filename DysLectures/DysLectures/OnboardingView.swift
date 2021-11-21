@@ -9,13 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var shouldShowOnboarding: Bool = true
+@State var shouldShowOnboarding: Bool = true
     
-//per fare in modo che l'onboarding funzioni solo la prima volta bisogna cancellare lo @State e poi scrivere questo:
+//per fare in modo che l'onboarding funzioni solo la prima volta bisogna commentare lo @State e poi eliminare il commento a questo:
     
-//    @AppStorage("shouldShowOnboarding") var shouldShowOnboarding: Bool = true
+//@AppStorage("shouldShowOnboarding") var shouldShowOnboarding: Bool = true
     
-//per ora facciamo test in questo modo 
+//per ora facciamo test in questo modo
     
     var body: some View {
         
