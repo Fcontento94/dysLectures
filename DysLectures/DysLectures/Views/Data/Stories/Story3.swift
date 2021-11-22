@@ -7,44 +7,82 @@
 //
 //import Foundation
 //
-//var Snow_White : [Story] = []
+//var little_Red_Riding_Hood: [Story] = []
 //
-//var story3: Story = Story(
-//    
-//    title: "Snow White and the Seven Dwarfs",
-//    
-//    bookCover: "book",
-//    
-//    chapter1: [
-//        
-//        //[0] il numero del capitolo
-//        
-//                "Chapter 1",
-//             
-//        //[1] immagine
-//        "book",
+//var story1: Story = Story(
 //
-//        //[2] paragrafo
-//        
-//               "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:",
-//        
-//        //[3] immagine
-//        "monster1",
+//title: "Little Red Riding Hood",
 //
-//        //[4] paragrafo
+//bookCover: "red",
 //
-//               "The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.",
-//        
-//        //[5] immagine
-//        "monster2",
-//        
-//        //[6] paragrafo
+//paragraphs: [
 //
-//               "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum."],
-//    
-//    chapter2: ["","",""],
-//    
-//    chapter3: ["","",""],
-//    
-//    goToExercise: "Riordiniamo la storia!"
+////CAPITOLO 1
+//
+////    [0]
+//               "Little Red Riding Hood lived in a wood with her mother. One day Little Red Riding Hood went to visit her granny. She had a nice cake in her basket.",
+//
+////    [1]
+//               "On her way Little Red Riding Hood met a wolf. ‘Hello!’ said the wolf: ‘Where are you going?’. Then Little Red replied: ‘I’m going to see my grandmother. She lives in a house behind those trees.’",
+////    [2]
+//               "The wolf ran to Granny’s house and ate Granny up. He got into Granny’s bed. A little  later, Little Red Riding Hood reached the house. ",
+//
+////CAPITOLO 2
+//
+//
+////    [3]
+//               "Little Red looked at the wolf and asked: ‘Granny, what big eyes you have!’. ‘All the better to see you with!’ said the wolf.",
+////    [4]
+//               "Again Little Red asked: ‘Granny, what big ears you have!’. ‘All the better to hear you with!’ said the wolf.",
+////    [5]
+//               "‘Granny, what big teeth you have!’. ‘All the better to eat you with!’ shouted the wolf.",
+//
+////CAPITOLO 3
+//
+////    [6]
+//               "A woodcutter was in the wood. He heard a loud scream and ran to the house.",
+//
+////    [7]
+//               "The woodcutter hit the wolf over the head. The wolf opened his mouth wide and shouted and Granny jumped out.",
+////    [8]
+//               "The wolf ran away and Little Red Riding Hood never saw the wolf again."
+//    ],
+//
+//images: [
+//
+//    //CAPITOLO 1
+//
+//    //    [0]
+//                   "forest",
+//
+//    //    [1]
+//                   "wolf",
+//    //    [2]
+//                   "granny",
+//
+//    //CAPITOLO 2
+//
+//
+//    //    [3]
+//                   "wolf",
+//    //    [4]
+//                   "wolf",
+//    //    [5]
+//                   "wolf",
+//
+//    //CAPITOLO 3
+//
+//    //    [6]
+//                   "hunter",
+//
+//    //    [7]
+//                   "granny",
+//    //    [8]
+//                   "red"
+//]
+//
+////    goToExercise: "Riordiniamo la storia!"
+//
+//
+//
 //)

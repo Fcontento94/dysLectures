@@ -55,29 +55,29 @@ images: [
     //    [0]
                    "forest",
 
-    //    [2]
+    //    [1]
                    "wolf",
-    //    [3]
+    //    [2]
                    "granny",
         
     //CAPITOLO 2
 
 
+    //    [3]
+                   "wolf",
     //    [4]
                    "wolf",
     //    [5]
                    "wolf",
-    //    [6]
-                   "wolf",
 
     //CAPITOLO 3
                    
-    //    [7]
+    //    [6]
                    "hunter",
 
-    //    [8]
+    //    [7]
                    "granny",
-    //    [9]
+    //    [8]
                    "red"
 ]
     
