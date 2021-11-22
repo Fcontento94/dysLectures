@@ -80,7 +80,41 @@ images: [
     //    [8]
                    "princess"
         
-        ]
+        ],
+
+Correct: [
+    
+//CAPITOLO 1
+    
+//    [0]
+           "In a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters.",
+
+//    [1]
+           "One day, they all went to a ball in the palace, leaving Cinderella behind.",
+//    [2]
+           "Suddenly there was a burst of light and the fairy godmother appeared!",
+
+//CAPITOLO 2
+
+
+//    [3]
+           "With a flick of the magic she turned Cinderella into a beautiful princess.",
+//    [4]
+           "with glass slippers and a horse carriage appeared at the door.",
+//    [5]
+           "The fairy godmother warned Cinderella to return before midnight. Cinderella arrived at the ball.",
+
+//CAPITOLO 3
+           
+//    [6]
+           "The clock struck twelve, Cinderella rushed out to her carriage leaving one of her slippers behind.",
+
+//    [7]
+           "The prince went to every house in the town with the slipper until he found Cinderella.",
+//    [8]
+           "The prince and Cinderella lived happily ever after."
+
+]
     
 //    goToExercise: "Riordiniamo la storia!"
     
