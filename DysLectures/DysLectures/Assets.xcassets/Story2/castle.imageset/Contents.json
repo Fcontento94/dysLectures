@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "cinderella-sad.png",
+      "filename" : "castle.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cinderella-sad-1.png",
+      "filename" : "castle-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cinderella-sad-2.png",
+      "filename" : "castle-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

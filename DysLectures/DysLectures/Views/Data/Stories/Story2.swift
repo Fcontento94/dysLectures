@@ -23,9 +23,9 @@ paragraphs: [
                "Once upon a time, in a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters.",
 
 //    [1]
-               "She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling sad. ",
+               "She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling very sad. ",
 //    [2]
-               "Suddenly there was a burst of light and the fairy godmother appeared.",
+               "Suddenly there was a burst of light and the fairy godmother appeared!",
     
 //CAPITOLO 2
 
@@ -56,7 +56,7 @@ images: [
                    "cinderella-sad",
 
     //    [1]
-                   "castle",
+                   "house-cleaning",
     //    [2]
                    "fairy",
         
@@ -64,7 +64,7 @@ images: [
 
 
     //    [3]
-                   "princess",
+                   "magic-wand",
     //    [4]
                    "pumpkin-carriage",
     //    [5]
@@ -73,10 +73,10 @@ images: [
     //CAPITOLO 3
                    
     //    [6]
-                   "shoe",
+                   "castle",
 
     //    [7]
-                   "prince",
+                   "shoe",
     //    [8]
                    "princess"
         

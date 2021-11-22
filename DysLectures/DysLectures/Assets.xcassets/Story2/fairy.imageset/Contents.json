@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "fairy.png",
+      "filename" : "tooth-fairy.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "fairy-1.png",
+      "filename" : "tooth-fairy-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "fairy-2.png",
+      "filename" : "tooth-fairy-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "cinderella-sad.png",
+      "filename" : "house-cleaning.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cinderella-sad-1.png",
+      "filename" : "house-cleaning-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cinderella-sad-2.png",
+      "filename" : "house-cleaning-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
