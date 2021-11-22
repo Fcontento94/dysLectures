@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3027482D8400EDD617 /* Data-Text.swift */; };
 		9D232A3327482DEF00EDD617 /* old-TutorialScenes(Anto).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */; };
+		9D23E0E0274BB71900852953 /* GameView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23E0DF274BB71900852953 /* GameView1.swift */; };
 		9DC7A5CF274815DB005F9AA3 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */; };
 		9DC7A5D0274815DB005F9AA3 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */; };
 		9DC7A5D1274815DB005F9AA3 /* OpenDyslexic-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		9D232A3027482D8400EDD617 /* Data-Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Text.swift"; sourceTree = "<group>"; };
 		9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-TutorialScenes(Anto).swift"; sourceTree = "<group>"; };
+		9D23E0DF274BB71900852953 /* GameView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView1.swift; sourceTree = "<group>"; };
 		9DC7A5CB274815DB005F9AA3 /* OpenDyslexic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Regular.otf"; sourceTree = "<group>"; };
 		9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.otf"; sourceTree = "<group>"; };
 		9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.otf"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				A4A5BE47274A3C2600E61AB0 /* HomeView.swift */,
 				A443C3192746F1E800D7EA54 /* BookView.swift */,
 				A4607326274822E500AA7CEA /* ReadingView.swift */,
+				9D23E0DF274BB71900852953 /* GameView1.swift */,
 				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
 				A4496C58274938CD0050900D /* InsertNameView.swift */,
 			);
@@ -389,6 +392,7 @@
 				A4A5BE8A274AA3C200E61AB0 /* OnboardingView.swift in Sources */,
 				A4227EC0274960800027C25A /* Story1.swift in Sources */,
 				A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */,
+				9D23E0E0274BB71900852953 /* GameView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
