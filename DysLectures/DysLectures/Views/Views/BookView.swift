@@ -85,34 +85,38 @@ struct BookView: View {
                         
                         Button(action:{
                             
+                    
                         }, label: {
-                            VStack{
-                                
-                                Text("temp")
-                                    .font(.custom("OpenDyslexic-Regular", size: 18))
-                                    .frame(width: 150, height: 100)
-                                    .multilineTextAlignment(.center)
-                                    .foregroundColor(Color.black)
-                                
-                            Image("book")
-                                .font(.custom("OpenDyslexic-Bold", size: 18))
-                                .padding()
-
-                                
-                                Text("Read!")
+                            
+                            NavigationLink(destination: ReadingView2()) {
+                                VStack{
+                                    
+                                    Text("\(story2.title)")
+                                        .font(.custom("OpenDyslexic-Regular", size: 18))
+                                        .frame(width: 150, height: 100)
+                                        .multilineTextAlignment(.center)
+                                        .foregroundColor(Color.black)
+                                    
+                                    Image("\(story2.bookCover)")
+                                    .font(.custom("OpenDyslexic-Bold", size: 18))
                                     .padding()
-                                    .font(.custom("OpenDyslexic-Bold", size: 20))
-                                 
-                                    .foregroundColor(Color.white)
-                                    .frame(width: 150, height: 60)
-                                    .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
-                                    .cornerRadius(20)
-                            }
+
+                                    
+                                    Text("Read!")
+                                        .padding()
+                                        .font(.custom("OpenDyslexic-Bold", size: 20))
+                                     
+                                        .foregroundColor(Color.white)
+                                        .frame(width: 150, height: 60)
+                                        .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                        .cornerRadius(20)
+                                }
+                             }
+                            
                                 
                         })
-                        
-                        
                     }
+                    .padding(.all, 0.0)
                     
                     VStack{
                         
