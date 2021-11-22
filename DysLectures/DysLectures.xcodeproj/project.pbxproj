@@ -112,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D23E0E1274BFAB600852953 /* Game_View */ = {
+			isa = PBXGroup;
+			children = (
+				9D23E0DF274BB71900852953 /* GameView1.swift */,
+			);
+			path = Game_View;
+			sourceTree = "<group>";
+		};
 		9DC7A5CA2748158F005F9AA3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,10 +185,10 @@
 			isa = PBXGroup;
 			children = (
 				A48F57D6274BBE0100E5D5D6 /* Reading_Views */,
+				9D23E0E1274BFAB600852953 /* Game_View */,
 				A4A5BE8B274AA44900E61AB0 /* Onboarding */,
 				A4A5BE47274A3C2600E61AB0 /* HomeView.swift */,
 				A443C3192746F1E800D7EA54 /* BookView.swift */,
-				9D23E0DF274BB71900852953 /* GameView1.swift */,
 				A4E1503B2746707500A4FA4B /* MonsterView.swift */,
 				A4496C58274938CD0050900D /* InsertNameView.swift */,
 			);
