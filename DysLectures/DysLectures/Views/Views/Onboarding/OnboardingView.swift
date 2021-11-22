@@ -88,7 +88,8 @@ struct TutorialPage: View {
     
     @Binding var shouldShowOnboarding: Bool
     @State var animationScale :CGFloat = 1
-    
+    @State var animationOpacity = 0.0
+
     var body: some View {
         
         VStack {
@@ -97,11 +98,23 @@ struct TutorialPage: View {
                 .padding([.leading, .bottom, .trailing], 45.0)
                 .multilineTextAlignment(.center)
                 .font(.custom("OpenDyslexic-Regular", size: 18))
+                .opacity(animationOpacity)
+                                                .onAppear{
+                                                    let fadein = Animation.easeIn(duration: 1)
+                                                    withAnimation(fadein){
+                                                        animationOpacity = 1.0}}
             
             Image(imageTutorial)
                 .padding(.all)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150.0, height: 150.0)
+                .opacity(animationOpacity)
+                                                .onAppear{
+                                                    let fadein = Animation.easeIn(duration: 1.5)
+                                                    withAnimation(fadein){
+                                                        animationOpacity = 1.0}}
+            
+            
                 .scaleEffect(animationScale)
                                        .onAppear{
                                            let baseAnimation = Animation.easeInOut(duration: 4)
@@ -116,6 +129,11 @@ struct TutorialPage: View {
                 .padding([.top, .leading, .trailing], 45.0)
                 .multilineTextAlignment(.center)
                 .font(.custom("OpenDyslexic-Regular", size: 18))
+                .opacity(animationOpacity)
+                                                .onAppear{
+                                                    let fadein = Animation.easeIn(duration: 2)
+                                                    withAnimation(fadein){
+                                                        animationOpacity = 1.0}}
 
 
              
