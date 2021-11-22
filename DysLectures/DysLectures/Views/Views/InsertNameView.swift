@@ -10,9 +10,6 @@ import SwiftUI
 struct InsertNameView: View {
     
     @State private var userName = ""
-    
-    @State var animationOpacity = 0.0
-    @State var animationScale :CGFloat = 1
         
     var body: some View {
         
@@ -37,15 +34,6 @@ struct InsertNameView: View {
                                 .padding([.top, .leading, .trailing], 80.0)
                                 .multilineTextAlignment(.center)
                                 .font(.custom("OpenDyslexic-Bold", size: 18))
-                        .scaleEffect(animationScale)
-                        .onAppear{
-                            let baseAnimation = Animation.easeInOut(duration: 5)
-                                    let repeated = baseAnimation.repeatForever(autoreverses: true)
-
-                                    withAnimation(repeated) {
-                                        animationScale = 0.9
-                                    }
-                    }
     
                             
                     Image("monster1")
@@ -73,11 +61,6 @@ struct InsertNameView: View {
             }
                                
         }
-                            .opacity(animationOpacity)
-                                .onAppear{
-                                    let fadein = Animation.easeIn(duration: 0.5)
-                                    withAnimation(fadein){
-                                        animationOpacity = 1.0}}
                                 
                                 
                             
