@@ -29,13 +29,17 @@ struct ReadingView: View {
                 .padding(.top, 50.0)
                 .font(.custom("OpenDyslexic-Bold", size: 25))
             
+            
+            
+        ScrollView(.vertical, showsIndicators: true) {
+            
+// Capitolo
+            
             Text("\(story1.chapter1[0])")
                 .multilineTextAlignment(.center)
                 .padding(.top, 1.0)
                 .font(.custom("OpenDyslexic-Bold", size: 25))
             
-        ScrollView(.vertical, showsIndicators: true) {
-    
 // IMMAGINE PARAGRAFO 1
             Image("\(story1.chapter1[1])")
                 .padding(.all)
