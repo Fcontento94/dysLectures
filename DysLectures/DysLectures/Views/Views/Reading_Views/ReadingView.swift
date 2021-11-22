@@ -11,7 +11,7 @@ import SwiftUI
 struct ReadingView: View {
     
     var body: some View {
-        
+//        NavigationView{
         ZStack {
             Image("dyslexic-ruler")
                 .renderingMode(.original)
@@ -157,10 +157,12 @@ Text("Chapter 3")
                                         .padding(.top)
                                         .font(.custom("OpenDyslexic-Regular", size: 25))
                         }
-
+//            NavigationLink(destination: GameView1()){
 Button(action:{
                 
 }, label: {
+    
+    NavigationLink(destination: GameView1()) {
     Text("Go to Play!")
         .padding()
         .font(.custom("OpenDyslexic-Bold", size: 20))
@@ -169,17 +171,17 @@ Button(action:{
         .frame(width: 200, height: 60)
         .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
         .cornerRadius(20)
-
+    }
 
 })
 .padding(.bottom, 115.0)
-            
+            }
                 } //FINE STORIA > fine vstack
         }
         .padding(.horizontal)
         }
         }
-    }
+//    } 
 
 
 struct ReadingView_Previews: PreviewProvider {
@@ -188,3 +190,4 @@ struct ReadingView_Previews: PreviewProvider {
     }
 }
 
+//}
