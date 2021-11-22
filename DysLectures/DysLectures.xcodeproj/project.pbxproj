@@ -13,9 +13,9 @@
 		9DC7A5D0274815DB005F9AA3 /* OpenDyslexic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CC274815DB005F9AA3 /* OpenDyslexic-Bold.otf */; };
 		9DC7A5D1274815DB005F9AA3 /* OpenDyslexic-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */; };
 		9DC7A5D2274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */; };
-		A4227EC0274960800027C25A /* Struct-Story1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EBF274960800027C25A /* Struct-Story1.swift */; };
-		A4227EC3274966C70027C25A /* Struct-Story2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EC2274966C70027C25A /* Struct-Story2.swift */; };
-		A4227EC5274966EF0027C25A /* Struct-Story3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EC4274966EF0027C25A /* Struct-Story3.swift */; };
+		A4227EC0274960800027C25A /* Story1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EBF274960800027C25A /* Story1.swift */; };
+		A4227EC3274966C70027C25A /* Story2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EC2274966C70027C25A /* Story2.swift */; };
+		A4227EC5274966EF0027C25A /* Story3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4227EC4274966EF0027C25A /* Story3.swift */; };
 		A443C3152746EE1500D7EA54 /* old-TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3142746EE1500D7EA54 /* old-TutorialView.swift */; };
 		A443C3182746EEC500D7EA54 /* old-dataTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */; };
 		A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A443C3192746F1E800D7EA54 /* BookView.swift */; };
@@ -59,9 +59,9 @@
 		9DC7A5CD274815DB005F9AA3 /* OpenDyslexic-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.otf"; sourceTree = "<group>"; };
 		9DC7A5CE274815DB005F9AA3 /* OpenDyslexic-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.otf"; sourceTree = "<group>"; };
 		9DC7A5D327481630005F9AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A4227EBF274960800027C25A /* Struct-Story1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Story1.swift"; sourceTree = "<group>"; };
-		A4227EC2274966C70027C25A /* Struct-Story2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Story2.swift"; sourceTree = "<group>"; };
-		A4227EC4274966EF0027C25A /* Struct-Story3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct-Story3.swift"; sourceTree = "<group>"; };
+		A4227EBF274960800027C25A /* Story1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story1.swift; sourceTree = "<group>"; };
+		A4227EC2274966C70027C25A /* Story2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story2.swift; sourceTree = "<group>"; };
+		A4227EC4274966EF0027C25A /* Story3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story3.swift; sourceTree = "<group>"; };
 		A443C3142746EE1500D7EA54 /* old-TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-TutorialView.swift"; sourceTree = "<group>"; };
 		A443C3172746EEC500D7EA54 /* old-dataTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-dataTutorial.swift"; sourceTree = "<group>"; };
 		A443C3192746F1E800D7EA54 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
@@ -122,9 +122,9 @@
 		A4227EBE2749602A0027C25A /* Stories */ = {
 			isa = PBXGroup;
 			children = (
-				A4227EBF274960800027C25A /* Struct-Story1.swift */,
-				A4227EC2274966C70027C25A /* Struct-Story2.swift */,
-				A4227EC4274966EF0027C25A /* Struct-Story3.swift */,
+				A4227EBF274960800027C25A /* Story1.swift */,
+				A4227EC2274966C70027C25A /* Story2.swift */,
+				A4227EC4274966EF0027C25A /* Story3.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -373,12 +373,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4227EC3274966C70027C25A /* Struct-Story2.swift in Sources */,
+				A4227EC3274966C70027C25A /* Story2.swift in Sources */,
 				A4E1503C2746707500A4FA4B /* MonsterView.swift in Sources */,
 				A4496C59274938CD0050900D /* InsertNameView.swift in Sources */,
 				A4A5BE48274A3C2600E61AB0 /* HomeView.swift in Sources */,
 				A4607327274822E500AA7CEA /* ReadingView.swift in Sources */,
-				A4227EC5274966EF0027C25A /* Struct-Story3.swift in Sources */,
+				A4227EC5274966EF0027C25A /* Story3.swift in Sources */,
 				9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */,
 				A4E1503A2746707500A4FA4B /* DysLecturesApp.swift in Sources */,
 				9D232A3327482DEF00EDD617 /* old-TutorialScenes(Anto).swift in Sources */,
@@ -387,7 +387,7 @@
 				A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */,
 				A443C3152746EE1500D7EA54 /* old-TutorialView.swift in Sources */,
 				A4A5BE8A274AA3C200E61AB0 /* OnboardingView.swift in Sources */,
-				A4227EC0274960800027C25A /* Struct-Story1.swift in Sources */,
+				A4227EC0274960800027C25A /* Story1.swift in Sources */,
 				A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

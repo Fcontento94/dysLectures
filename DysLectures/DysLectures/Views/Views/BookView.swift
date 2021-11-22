@@ -88,13 +88,13 @@ struct BookView: View {
                         }, label: {
                             VStack{
                                 
-                                Text("\(story2.title)")
+                                Text("temp")
                                     .font(.custom("OpenDyslexic-Regular", size: 18))
                                     .frame(width: 150, height: 100)
                                     .multilineTextAlignment(.center)
                                     .foregroundColor(Color.black)
                                 
-                            Image("\(story2.bookCover)")
+                            Image("book")
                                 .font(.custom("OpenDyslexic-Bold", size: 18))
                                 .padding()
 
@@ -121,13 +121,13 @@ struct BookView: View {
                         }, label: {
                             VStack{
                                 
-                                Text("\(story3.title)")
+                                Text("temp)")
                                     .font(.custom("OpenDyslexic-Regular", size: 18))
                                     .frame(width: 150, height: 100)
                                     .multilineTextAlignment(.center)
                                     .foregroundColor(Color.black)
                                 
-                                Image("\(story3.bookCover)")
+                                Image("book")
                                 .font(.custom("OpenDyslexic-Bold", size: 18))
                                 .padding()
 
@@ -157,7 +157,8 @@ struct BookView: View {
             .padding(.all)
             }
 
-                 .navigationBarHidden(false)
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
  //end Navigation
         
     } // end view
