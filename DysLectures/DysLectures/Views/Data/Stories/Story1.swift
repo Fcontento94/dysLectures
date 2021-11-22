@@ -79,8 +79,39 @@ images: [
                    "granny",
     //    [8]
                    "red"
+],
+   Correct: [
+    //CAPITOLO 1
+            
+    //    [0]
+                   "One day Little Red Riding Hood went to visit her granny. S",
+
+    //    [1]
+                   "Little Red Riding Hood met a wolf.",
+    //    [2]
+                   "The wolf ran to Granny’s house and ate Granny up.",
+        
+    //CAPITOLO 2
+
+
+    //    [3]
+                   "Little Red looked at the wolf and asked: ‘Granny, what big eyes you have!’. ‘All the better to see you with!’ said the wolf.",
+    //    [4]
+                   "Again Little Red asked: ‘Granny, what big ears you have!’. ‘All the better to hear you with!’ said the wolf.",
+    //    [5]
+                   "‘Granny, what big teeth you have!’. ‘All the better to eat you with!’ shouted the wolf.",
+
+    //CAPITOLO 3
+                   
+    //    [6]
+                   "A woodcutter heard a loud scream and ran to the house.",
+
+    //    [7]
+                   "The woodcutter hit the wolf over the head.",
+    //    [8]
+                   "The wolf ran away and Little Red Riding Hood never saw the wolf again."
+
 ]
-    
 //    goToExercise: "Riordiniamo la storia!"
     
     

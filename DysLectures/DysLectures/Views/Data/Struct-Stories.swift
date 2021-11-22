@@ -16,6 +16,7 @@ struct Story {
     
     var paragraphs: [String]
     var images: [String]
+    var Correct: [String]
 
 //    var chapter1: [String]
 //    var chapter2: [String]
