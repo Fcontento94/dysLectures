@@ -199,7 +199,7 @@ Button(action:{
             .background(Color.white)
             .cornerRadius(20)
             .shadow(radius: 2)
-        
+        NavigationLink(destination:GameView1()){
     Text("Go to Play!")
             .padding(.top, 1.0)
         .font(.custom("OpenDyslexic-Bold", size: 20))
@@ -207,7 +207,7 @@ Button(action:{
         .frame(width: 200, height: 60)
         .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
         .cornerRadius(20)}
-
+    }
 
 })
 .padding(.bottom, 115.0)

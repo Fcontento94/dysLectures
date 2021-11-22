@@ -18,20 +18,42 @@ struct GameView1: View {
                 .font(.custom("OpenDyslexic-Bold", size: 25))
             
            
+            Text("Chapter 1")
+                .multilineTextAlignment(.center)
+                .padding(.top, 1.0)
+                .font(.custom("OpenDyslexic-Bold", size: 30))
+                    .foregroundColor(Color.black)
+//            ScrollView(.horizontal){
+            HStack{
+            Image("\(story1.images[0])")
+                    .padding(.all)
+                    .frame(width: 125, height: 125)
+                    .background(Color.white)
+                    .cornerRadius(20)
+                    .shadow(radius: 2)
+                Image("\(story1.images[1])")
+                    .padding(.all)
+                        .frame(width: 125, height: 125)
+                        .background(Color.white)
+                        .cornerRadius(20)
+                        .shadow(radius: 2)
+                       
+                        
+                Image("\(story1.images[2])")
+                    .padding(.all)
+                        .frame(width: 125, height: 125)
+                        .background(Color.white)
+                        .cornerRadius(20)
+                        .shadow(radius: 2)
+            }
             
         ScrollView(.vertical, showsIndicators: true) {
-            Text("Chapter 1")
-                                .multilineTextAlignment(.center)
-                                .padding(.top, 1.0)
-                                .font(.custom("OpenDyslexic-Bold", size: 30))
-                                .foregroundColor(Color.black)
-                        
-                        Image("\(story1.images[0])")
-                            .padding(.all)
-                            .frame(width: 300, height: 200)
-                            .background(Color.white)
-                            .cornerRadius(20)
-                            .shadow(radius: 2)
+           
+            
+            Text("\(story1.paragraphs[0])")
+                .multilineTextAlignment(.leading)
+                .padding(.top)
+                .font(.custom("OpenDyslexic-Regular", size: 25))
         }
         }
         
