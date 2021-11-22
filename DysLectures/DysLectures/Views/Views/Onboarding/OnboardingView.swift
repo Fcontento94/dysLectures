@@ -21,22 +21,26 @@ struct OnboardingView: View {
                 .background(Color.white)
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
-            
+
             TutorialPage(upText: "\(upWords[1])", imageTutorial: "\(monster0.imageMonster)", bottomText: "\(downWords[1])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
                 .frame(width: 350.0, height: 500.0)
                 .background(Color.white)
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+
             
 //            MonsterView()
 //                .frame(width: 400.0, height: 900.0)
 //                .background(Color.white)
+//                .ignoresSafeArea()
+
             
             TutorialPage(upText: "\(upWords[2])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[2])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
                 .frame(width: 350.0, height: 500.0)
                 .background(Color.white)
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+
             
 //            TutorialPage(upText: "\(upWords[3])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[3])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
 //                .frame(width: 350.0, height: 500.0)
@@ -58,12 +62,14 @@ struct OnboardingView: View {
                 .background(Color.white)
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+
             
             TutorialPage(upText: "\(upWords[6])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[6])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding)
                 .frame(width: 350.0, height: 500.0)
                 .background(Color.white)
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
+
             
             TutorialPage(upText: "\(upWords[7])", imageTutorial: "\(monster1.imageMonster)", bottomText: "\(downWords[7])", showDismissButton: true, shouldShowOnboarding: $shouldShowOnboarding)
                 .frame(width: 350.0, height: 500.0)
@@ -71,11 +77,12 @@ struct OnboardingView: View {
                 .cornerRadius(50)
                 .shadow(radius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
 
-  
-            
+
         }
         .tabViewStyle(PageTabViewStyle())
-        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.978, saturation: 0.509, brightness: 1.0)/*@END_MENU_TOKEN@*/)
+        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.945, saturation: 0.807, brightness: 0.771)/*@END_MENU_TOKEN@*/)
+        .ignoresSafeArea()
+
     }
 }
 
@@ -116,12 +123,13 @@ struct TutorialPage: View {
                     
                 }, label: {
                     Text("Let's Start!")
-                        .font(.custom("OpenDyslexic-Bold", size: 18))
                         .padding()
+                        .font(.custom("OpenDyslexic-Bold", size: 25))
                         .foregroundColor(Color.white)
-                        .frame(width: 200, height: 60)
+                        .frame(width: 250, height: 60)
                         .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
                         .cornerRadius(20)
+
                         
                 })
             }
