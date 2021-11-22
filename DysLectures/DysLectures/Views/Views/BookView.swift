@@ -12,8 +12,6 @@ struct BookView: View {
     
     var body: some View {
         
-NavigationView{
-
         ZStack {
             Image("bg2")
                 .renderingMode(.original)
@@ -159,7 +157,7 @@ NavigationView{
             .padding(.all)
             }
 
-        }            .navigationBarHidden(false)
+                 .navigationBarHidden(false)
  //end Navigation
         
     } // end view
