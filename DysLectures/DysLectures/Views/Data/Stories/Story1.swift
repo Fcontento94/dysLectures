@@ -64,11 +64,11 @@ images: [
 
 
     //    [3]
-                   "wolf",
+                   "wolf-disguise",
     //    [4]
-                   "wolf",
+                   "wolf-ears",
     //    [5]
-                   "wolf",
+                   "wolf-teeth",
 
     //CAPITOLO 3
                    
