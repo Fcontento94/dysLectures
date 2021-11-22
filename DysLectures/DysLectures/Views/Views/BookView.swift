@@ -51,7 +51,7 @@ struct BookView: View {
                     
                         }, label: {
                             
-                            NavigationLink(destination: ReadingView()) {
+                            NavigationLink(destination: ReadingView1()) {
                                 VStack{
                                     
                                     Text("\(story1.title)")
