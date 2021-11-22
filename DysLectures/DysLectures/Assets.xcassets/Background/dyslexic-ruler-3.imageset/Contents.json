@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "dyslexic ruler.png",
+      "filename" : "dyslexic-ruler-3.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "dyslexic ruler-1.png",
+      "filename" : "dyslexic-ruler-4.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "dyslexic ruler-2.png",
+      "filename" : "dyslexic-ruler-5.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

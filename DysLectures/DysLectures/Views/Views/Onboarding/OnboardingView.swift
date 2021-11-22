@@ -80,7 +80,7 @@ struct OnboardingView: View {
 
         }
         .tabViewStyle(PageTabViewStyle())
-        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.945, saturation: 0.807, brightness: 0.771)/*@END_MENU_TOKEN@*/)
+        .background(Color(red: 0.764, green: 0.143, blue: 0.186))
         .ignoresSafeArea()
 
     }
