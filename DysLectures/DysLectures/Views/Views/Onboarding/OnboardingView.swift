@@ -10,12 +10,13 @@ import SwiftUI
 // Onboarding View
 
 struct OnboardingView: View {
+    
     @Binding var shouldShowOnboarding: Bool
     
     var body: some View {
         
         TabView{
-            TutorialPage(upText: "\(upWords[0])", imageTutorial: "\(monster0.imageMonster)", bottomText: "\(downWords[0])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding )
+            TutorialPage(upText: "\(upWords[0])", imageTutorial: "\(bush.imageMonster)", bottomText: "\(downWords[0])", showDismissButton: false, shouldShowOnboarding: $shouldShowOnboarding )
                 .frame(width: 350.0, height: 500.0)
                 .background(Color.white)
                 .cornerRadius(50)
@@ -86,7 +87,7 @@ struct TutorialPage: View {
     let showDismissButton: Bool
     
     @Binding var shouldShowOnboarding: Bool
-
+    @State var animationScale :CGFloat = 1
     
     var body: some View {
         
@@ -101,6 +102,15 @@ struct TutorialPage: View {
                 .padding(.all)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 150.0, height: 150.0)
+                .scaleEffect(animationScale)
+                                       .onAppear{
+                                           let baseAnimation = Animation.easeInOut(duration: 4)
+                                                   let repeated = baseAnimation.repeatForever(autoreverses: true)
+
+                                                   withAnimation(repeated) {
+                                                       animationScale = 0.9
+                                                   }
+                                   }
             
             Text(bottomText)
                 .padding([.top, .leading, .trailing], 45.0)

@@ -23,7 +23,11 @@ struct Monster {
 
 var monsters: [Monster] = []
 
+var bush: Monster = Monster(Name: "Coco", imageMonster: "bush", number: 0, description: "")
+
 var monster0: Monster = Monster(Name: "Coco", imageMonster: "hidden-monster", number: 0, description: "")
+
+var monster: Monster = Monster(Name: "Coco", imageMonster: "shadow-monster", number: 0, description: "")
 
 var monster1: Monster = Monster(Name: "Coco", imageMonster: "monster1", number: 1, description: "A Red Monster with blue eyes!")
 var monster2: Monster = Monster(Name: "Coco", imageMonster: "monster2", number: 2, description: "A purple Alien with Red eyes!")
