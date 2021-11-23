@@ -10,110 +10,101 @@ import Foundation
 var little_Red_Riding_Hood: [Story] = []
 
 var story1: Story = Story(
-    
-title: "Little Red Riding Hood",
-    
-bookCover: "red",
-    
-paragraphs: [
-        
-//CAPITOLO 1
-        
-//    [0]
-               "Little Red Riding Hood lived in a wood with her mother. One day Little Red Riding Hood went to visit her granny. She had a nice cake in her basket.",
-
-//    [1]
-               "On her way Little Red Riding Hood met a wolf. ‘Hello!’ said the wolf: ‘Where are you going?’. Then Little Red replied: ‘I’m going to see my grandmother. She lives in a house behind those trees.’",
-//    [2]
-               "The wolf ran to Granny’s house and ate Granny up. He got into Granny’s bed. A little  later, Little Red Riding Hood reached the house. ",
-    
-//CAPITOLO 2
-
-
-//    [3]
-               "Little Red looked at the wolf and asked: ‘Granny, what big eyes you have!’. ‘All the better to see you with!’ said the wolf.",
-//    [4]
-               "Again Little Red asked: ‘Granny, what big ears you have!’. ‘All the better to hear you with!’ said the wolf.",
-//    [5]
-               "‘Granny, what big teeth you have!’. ‘All the better to eat you with!’ shouted the wolf.",
-
-//CAPITOLO 3
-               
-//    [6]
-               "A woodcutter was in the wood. He heard a loud scream and ran to the house.",
-
-//    [7]
-               "The woodcutter hit the wolf over the head. The wolf opened his mouth wide and shouted and Granny jumped out.",
-//    [8]
-               "The wolf ran away and Little Red Riding Hood never saw the wolf again."
-    ],
-
-images: [
+  
+  title: "Little Red Riding Hood",
+  
+  bookCover: "red",
+  
+  paragraphs: [
     
     //CAPITOLO 1
-            
+    
     //    [0]
-                   "forest",
-
+    "Little Red Riding Hood lived in a wood with her mother. One day Little Red Riding Hood went to visit her granny. She had a nice cake in her basket.",
     //    [1]
-                   "wolf",
+    "On her way Little Red Riding Hood met a wolf. ‘Hello!’ said the wolf: ‘Where are you going?’. Then Little Red replied: ‘I’m going to see my grandmother. She lives in a house behind those trees.’",
     //    [2]
-                   "granny",
-        
+    "The wolf ran to Granny’s house and ate Granny up. He got into Granny’s bed. A little  later, Little Red Riding Hood reached the house. ",
+    
+    
     //CAPITOLO 2
-
-
+    
     //    [3]
-                   "wolf-disguise",
+    "Little Red looked at the wolf and asked: ‘Granny, what big eyes you have!’. ‘All the better to see you with!’ said the wolf.",
     //    [4]
-                   "wolf-ears",
+    "Again Little Red asked: ‘Granny, what big ears you have!’. ‘All the better to hear you with!’ said the wolf.",
     //    [5]
-                   "wolf-teeth",
-
+    "‘Granny, what big teeth you have!’. ‘All the better to eat you with!’ shouted the wolf.",
+    
+    
     //CAPITOLO 3
-                   
+    
     //    [6]
-                   "hunter",
-
+    "A woodcutter was in the wood. He heard a loud scream and ran to the house.",
     //    [7]
-                   "granny",
+    "The woodcutter hit the wolf over the head. The wolf opened his mouth wide and shouted and Granny jumped out.",
     //    [8]
-                   "red"
-],
-   Correct: [
+    "The wolf ran away and Little Red Riding Hood never saw the wolf again."
+  ],
+  
+  images: [
     //CAPITOLO 1
-            
+    
     //    [0]
-                   "Little Red Riding Hood lived went to visit her granny.",
-
+    "forest",
     //    [1]
-                   "On her way Little Red Riding Hood met a wolf.",
+    "wolf",
     //    [2]
-                   "The wolf ran to Granny’s house and ate Granny up.",
-        
+    "granny",
+    
+    
     //CAPITOLO 2
-
-
+    
     //    [3]
-                   "Little Red noticed the big eyes of the wolf",
+    "wolf-disguise",
     //    [4]
-                   "Little Red noticed the big the ears of the wolf",
+    "wolf-ears",
     //    [5]
-                   "Little Red noticed the big teeth of the wolf and suddenly he ate her",
-
+    "wolf-teeth",
+    
+    
     //CAPITOLO 3
-                   
+    
     //    [6]
-                   "A woodcutter heard a loud scream and ran to the house.",
-
+    "hunter",
     //    [7]
-                   "The woodcutter hit the wolf over the head.",
+    "granny",
     //    [8]
-                   "The wolf ran away and Little Red Riding Hood never saw the wolf again."
-
-]
-//    goToExercise: "Riordiniamo la storia!"
+    "red"
+  ],
+  
+  correct: [
+    //CAPITOLO 1
     
+    //    [0]
+    "Little Red Riding Hood lived went to visit her granny.",
+    //    [1]
+    "On her way Little Red Riding Hood met a wolf.",
+    //    [2]
+    "The wolf ran to Granny’s house and ate Granny up.",
     
-
+    //CAPITOLO 2
+    
+    //    [3]
+    "Little Red noticed the big eyes of the wolf",
+    //    [4]
+    "Little Red noticed the big the ears of the wolf",
+    //    [5]
+    "Little Red noticed the big teeth of the wolf and suddenly he ate her",
+    
+    //CAPITOLO 3
+    
+    //    [6]
+    "A woodcutter heard a loud scream and ran to the house.",
+    //    [7]
+    "The woodcutter hit the wolf over the head.",
+    //    [8]
+    "The wolf ran away and Little Red Riding Hood never saw the wolf again."
+  ]
 )
+
