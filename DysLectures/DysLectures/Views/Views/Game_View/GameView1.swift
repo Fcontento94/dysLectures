@@ -44,6 +44,7 @@ struct GameView1: View {
             print("Correct")
             self.showsAlert.toggle()
             self.alertMessage = "WOAH! This is the correct order! You are GREAT!"
+
           } else {
             // order of the story not correct
             print("Not Correct")

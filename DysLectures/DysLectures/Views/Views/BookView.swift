@@ -125,7 +125,7 @@ struct BookView: View {
                         }, label: {
                             VStack{
                                 
-                                Text("temp)")
+                                Text("Unlocked Book")
                                     .font(.custom("OpenDyslexic-Regular", size: 18))
                                     .frame(width: 150, height: 100)
                                     .multilineTextAlignment(.center)
@@ -134,6 +134,7 @@ struct BookView: View {
                                 Image("book")
                                 .font(.custom("OpenDyslexic-Bold", size: 18))
                                 .padding()
+                                
 
                                 
                                 Text("Read!")
@@ -142,7 +143,7 @@ struct BookView: View {
                                  
                                     .foregroundColor(Color.white)
                                     .frame(width: 150, height: 60)
-                                    .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+                                    .background(Color.gray)
                                     .cornerRadius(20)
                             }
                                 

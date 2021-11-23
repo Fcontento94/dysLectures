@@ -200,11 +200,11 @@ Button(action:{
             .cornerRadius(20)
             .shadow(radius: 2)
         NavigationLink(destination:GameView1()){
-    Text("Go to Play!")
+    Text("Reorder the Book!")
             .padding(.top, 1.0)
         .font(.custom("OpenDyslexic-Bold", size: 20))
              .foregroundColor(Color.white)
-        .frame(width: 200, height: 60)
+        .frame(width: 230, height: 60)
         .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
         .cornerRadius(20)}
     }
