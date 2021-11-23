@@ -84,10 +84,10 @@ images: [
     //CAPITOLO 1
             
     //    [0]
-                   "One day Little Red Riding Hood went to visit her granny. S",
+                   "Little Red Riding Hood lived went to visit her granny.",
 
     //    [1]
-                   "Little Red Riding Hood met a wolf.",
+                   "On her way Little Red Riding Hood met a wolf.",
     //    [2]
                    "The wolf ran to Granny’s house and ate Granny up.",
         
@@ -95,11 +95,11 @@ images: [
 
 
     //    [3]
-                   "Little Red looked at the wolf and asked: ‘Granny, what big eyes you have!’. ‘All the better to see you with!’ said the wolf.",
+                   "Little Red noticed the big eyes of the wolf",
     //    [4]
-                   "Again Little Red asked: ‘Granny, what big ears you have!’. ‘All the better to hear you with!’ said the wolf.",
+                   "Little Red noticed the big the ears of the wolf",
     //    [5]
-                   "‘Granny, what big teeth you have!’. ‘All the better to eat you with!’ shouted the wolf.",
+                   "Little Red noticed the big teeth of the wolf and suddenly he ate her",
 
     //CAPITOLO 3
                    

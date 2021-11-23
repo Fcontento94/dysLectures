@@ -10,51 +10,85 @@ import SwiftUI
 struct GameView1: View {
     var body: some View {
         VStack{
+            
+            
+            Text("What happens first?")
+                .multilineTextAlignment(.center)
+                .font(.custom("OpenDyslexic-Bold", size: 30))
+                    .foregroundColor(Color.black)
         
             Text("\(story1.title)")
                 .foregroundColor(Color(red: 0.764, green: 0.143, blue: 0.186))
                 .multilineTextAlignment(.center)
-                .padding(.top, 50.0)
                 .font(.custom("OpenDyslexic-Bold", size: 25))
             
            
             Text("Chapter 1")
                 .multilineTextAlignment(.center)
-                .padding(.top, 1.0)
                 .font(.custom("OpenDyslexic-Bold", size: 30))
                     .foregroundColor(Color.black)
+            
+            
+            
 //            ScrollView(.horizontal){
+            
+            VStack{
+            
             HStack{
-            Image("\(story1.images[0])")
-                    .padding(.all)
+                
+                Image("\(story1.images[0])")
+                    .aspectRatio(contentMode: .fit)
+                    .padding([.top, .leading, .bottom])
                     .frame(width: 125, height: 125)
                     .background(Color.white)
-                    .cornerRadius(20)
+                    .cornerRadius(10)
                     .shadow(radius: 2)
-                Image("\(story1.images[1])")
+                Text("\(story1.Correct[0])")
                     .padding(.all)
-                        .frame(width: 125, height: 125)
-                        .background(Color.white)
-                        .cornerRadius(20)
-                        .shadow(radius: 2)
-                       
-                        
-                Image("\(story1.images[2])")
-                    .padding(.all)
-                        .frame(width: 125, height: 125)
+                        .frame(width: 200, height: 125)
                         .background(Color.white)
                         .cornerRadius(20)
                         .shadow(radius: 2)
             }
-            
-        ScrollView(.vertical, showsIndicators: true) {
-           
-            
-            Text("\(story1.paragraphs[0])")
-                .multilineTextAlignment(.leading)
-                .padding(.top)
-                .font(.custom("OpenDyslexic-Regular", size: 25))
-        }
+                
+                HStack{
+                    
+                    Image("\(story1.images[1])")
+                        .aspectRatio(contentMode: .fit)
+                        .padding([.top, .leading, .bottom])
+                        .frame(width: 125, height: 125)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .shadow(radius: 2)
+                    Text("\(story1.Correct[1])")
+                        .padding(.all)
+                            .frame(width: 200, height: 125)
+                            .background(Color.white)
+                            .cornerRadius(20)
+                            .shadow(radius: 2)
+                }
+                
+                HStack{
+                    
+                    Image("\(story1.images[2])")
+                        .aspectRatio(contentMode: .fit)
+                        .padding([.top, .leading, .bottom])
+                        .frame(width: 125, height: 125)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .shadow(radius: 2)
+                    Text("\(story1.Correct[2])")
+                        .padding(.all)
+                            .frame(width: 200, height: 125)
+                            .background(Color.white)
+                            .cornerRadius(20)
+                            .shadow(radius: 2)
+                }
+                
+            }
+                       
+                        
+                
         }
         
     }
