@@ -82,7 +82,7 @@ var story1: Story = Story(
     //CAPITOLO 1
     
     //    [0]
-    "Little Red Riding Hood lived went to visit her granny.",
+    "Little Red Riding Hood went to visit her granny.",
     //    [1]
     "On her way Little Red Riding Hood met a wolf.",
     //    [2]
@@ -102,9 +102,9 @@ var story1: Story = Story(
     //    [6]
     "A woodcutter heard a loud scream and ran to the house.",
     //    [7]
-    "The woodcutter hit the wolf over the head.",
+    "The woodcutter hit the wolf over the head and Granny jumped out.",
     //    [8]
-    "The wolf ran away and Little Red Riding Hood never saw the wolf again."
+    "The wolf ran away and Little Red Riding Hood never saw him again."
   ]
 )
 
