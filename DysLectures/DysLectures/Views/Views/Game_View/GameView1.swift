@@ -58,8 +58,9 @@ struct GameView1: View {
         .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
         .cornerRadius(20)
           
-      }.alert(self.alertMessage, isPresented: $showsAlert) {
-          Button("Pick Another Book!", role: .cancel) { }
+      }
+      .alert(self.alertMessage, isPresented: $showsAlert) {
+          Button("Ok!", role: .cancel) { }
       }
       .navigationBarTitle(Text(""), displayMode: .inline)
     } else {
