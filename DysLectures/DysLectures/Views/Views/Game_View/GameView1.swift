@@ -16,20 +16,18 @@ struct GameView1: View {
   var body: some View {
     if #available(iOS 15.0, *) {
       VStack {
-        Text("What happens first?")
-          .multilineTextAlignment(.center)
-          .font(.custom("OpenDyslexic-Bold", size: 30))
-          .foregroundColor(Color.black)
         
         Text("\(story1.title)")
           .foregroundColor(Color(red: 0.764, green: 0.143, blue: 0.186))
           .multilineTextAlignment(.center)
           .font(.custom("OpenDyslexic-Bold", size: 25))
+          .padding(.horizontal)
         
-        Text("Chapter 1")
+        Text("Reorder the Events!")
           .multilineTextAlignment(.center)
-          .font(.custom("OpenDyslexic-Bold", size: 30))
+          .font(.custom("OpenDyslexic-Bold", size: 20))
           .foregroundColor(Color.black)
+          .padding(.horizontal)
         
         List {
           ForEach(stories.indices) { index in
@@ -40,21 +38,28 @@ struct GameView1: View {
           }
         }.environment(\.editMode, Binding.constant(EditMode.active))
         
-        Button("Check") {
+        Button("Check!") {
           if checkStoryOrder() {
             // the order of the story is correct
             print("Correct")
             self.showsAlert.toggle()
-            self.alertMessage = "All correct!"
+            self.alertMessage = "WOAH! This is the correct order! You are GREAT!"
           } else {
             // order of the story not correct
-            print("Not correct")
+            print("Not Correct")
             self.showsAlert.toggle()
-            self.alertMessage = "Retry!"
+            self.alertMessage = "Wooops! I think we are wrong! Let’s try again,this Magic Book is really fun-loving!!"
           }
         }
+        .padding()
+        .font(.custom("OpenDyslexic-Bold", size: 20))
+        .foregroundColor(Color.white)
+        .frame(width: 150, height: 60)
+        .background(Color(hue: 0.63, saturation: 0.734, brightness: 1.0))
+        .cornerRadius(20)
+          
       }.alert(self.alertMessage, isPresented: $showsAlert) {
-        Button("OK", role: .cancel) { }
+          Button("Pick Another Book!", role: .cancel) { }
       }
       .navigationBarTitle(Text(""), displayMode: .inline)
     } else {
