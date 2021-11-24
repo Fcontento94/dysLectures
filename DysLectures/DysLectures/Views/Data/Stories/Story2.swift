@@ -87,12 +87,12 @@ var story2: Story = Story(
     //CAPITOLO 1
     
     //    [0]
-    "In a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters.",
+    "Cinderella lived with her wicked stepmother and two step sisters.",
     
     //    [1]
-    "One day, they all went to a ball in the palace, leaving Cinderella behind.",
+    "One day they went to a ball in the palace without her.",
     //    [2]
-    "Suddenly there was a burst of light and the fairy godmother appeared!",
+    "Suddenly the fairy godmother appeared!",
     
     //CAPITOLO 2
     
