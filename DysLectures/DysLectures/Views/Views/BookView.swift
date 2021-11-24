@@ -30,7 +30,7 @@ struct BookView: View {
 //                .background(Color(red: 1.001, green: 0.326, blue: 0.391))
 //                .cornerRadius(20)
 
-            ScrollView(.horizontal, showsIndicators: true) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 
                 HStack(alignment: .center, spacing: 20) {
 
