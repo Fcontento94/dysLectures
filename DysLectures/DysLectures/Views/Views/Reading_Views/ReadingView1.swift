@@ -220,7 +220,7 @@ struct ReadingView1: View {
                     .background(Color.white)
                     .cornerRadius(10)
                     .shadow(radius: 2)
-                    .padding(.horizontal, -0)
+                    .padding([.leading, .bottom, .trailing], 25.0)
               
               NavigationLink(destination:GameView1()) {
                 Text("Reorder the Book!")

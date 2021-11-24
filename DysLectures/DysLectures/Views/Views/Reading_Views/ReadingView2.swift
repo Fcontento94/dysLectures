@@ -205,11 +205,11 @@ struct ReadingView2: View {
           }
           
           
-          Text("The End!")
-            .multilineTextAlignment(.center)
-            .padding(.top, 1.0)
-            .font(.custom("OpenDyslexic-Bold", size: 30))
-            .foregroundColor(Color(red: 0.764, green: 0.143, blue: 0.186))
+            Text("The End!")
+              .multilineTextAlignment(.center)
+              .padding(.top, 1.0)
+              .font(.custom("OpenDyslexic-Bold", size: 30))
+              .foregroundColor(Color(red: 0.764, green: 0.143, blue: 0.186))
           
           
           Button(action:{
@@ -224,7 +224,7 @@ struct ReadingView2: View {
                     .background(Color.white)
                     .cornerRadius(10)
                     .shadow(radius: 2)
-                    .padding(.horizontal, -0)
+                    .padding([.leading, .bottom, .trailing], 25.0)
               
               NavigationLink(destination:GameView2()) {
                 Text("Reorder the Book!")
