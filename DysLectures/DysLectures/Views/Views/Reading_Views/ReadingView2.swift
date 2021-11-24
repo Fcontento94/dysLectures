@@ -42,14 +42,14 @@ struct ReadingView2: View {
               .foregroundColor(Color.black)
             
             Image("\(story2.images[0])")
-              .padding(.all)
-            //                .frame(width: 300.0)
-            //                .border(/*@START_MENU_TOKEN@*/Color.red/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
-            
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             Text("\(story2.paragraphs[0])")
               .multilineTextAlignment(.leading)
@@ -57,11 +57,14 @@ struct ReadingView2: View {
               .font(.custom("OpenDyslexic-Regular", size: 25))
             
             Image("\(story2.images[1])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[1])")
@@ -70,11 +73,14 @@ struct ReadingView2: View {
               .font(.custom("OpenDyslexic-Regular", size: 25))
             
             Image("\(story2.images[2])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[2])")
@@ -93,11 +99,14 @@ struct ReadingView2: View {
               .foregroundColor(Color.black)
             
             Image("\(story2.images[3])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[3])")
@@ -106,11 +115,14 @@ struct ReadingView2: View {
               .font(.custom("OpenDyslexic-Regular", size: 25))
             
             Image("\(story2.images[4])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[4])")
@@ -119,11 +131,14 @@ struct ReadingView2: View {
               .font(.custom("OpenDyslexic-Regular", size: 25))
             
             Image("\(story2.images[5])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[5])")
@@ -142,11 +157,14 @@ struct ReadingView2: View {
               .foregroundColor(Color.black)
             
             Image("\(story2.images[6])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[6])")
@@ -155,12 +173,14 @@ struct ReadingView2: View {
               .font(.custom("OpenDyslexic-Regular", size: 25))
             
             Image("\(story2.images[7])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
-            
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             Text("\(story2.paragraphs[7])")
               .multilineTextAlignment(.leading)
@@ -168,11 +188,14 @@ struct ReadingView2: View {
               .font(.custom("OpenDyslexic-Regular", size: 25))
             
             Image("\(story2.images[8])")
-              .padding(.all)
-              .frame(width: 300, height: 200)
-              .background(Color.white)
-              .cornerRadius(20)
-              .shadow(radius: 2)
+                  .resizable()
+                  .clipped()
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 250, height: 200)
+                  .background(Color.white)
+                  .cornerRadius(10)
+                  .shadow(radius: 2)
+                  .padding(.horizontal, -0)
             
             
             Text("\(story2.paragraphs[8])")
@@ -194,11 +217,14 @@ struct ReadingView2: View {
           }, label: {
             
             VStack{Image("monster1")
-                .padding(.all, 10.0)
-                .frame(width: 300, height: 200)
-                .background(Color.white)
-                .cornerRadius(20)
-                .shadow(radius: 2)
+                    .resizable()
+                    .clipped()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 200)
+                    .background(Color.white)
+                    .cornerRadius(10)
+                    .shadow(radius: 2)
+                    .padding(.horizontal, -0)
               
               NavigationLink(destination:GameView2()) {
                 Text("Reorder the Book!")

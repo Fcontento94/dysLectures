@@ -106,9 +106,11 @@ struct TutorialPage: View {
                 
             
             Image(imageTutorial)
-                .padding(.all)
+                .resizable()
+                .clipped()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 150.0, height: 150.0)
+                .frame(width: 250, height: 200)
+                .padding(.horizontal, -0)
 
             
             Text(bottomText)
