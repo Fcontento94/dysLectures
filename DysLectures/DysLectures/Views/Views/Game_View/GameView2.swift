@@ -7,18 +7,17 @@
 
 import SwiftUI
 
-struct GameView1: View {
+struct GameView2: View {
   
   @State private var willMoveToNextScreen = false
   @State private var showsAlert = false
-  @State private var stories = story1.getStructuredData().shuffled()
+  @State private var stories = story2.getStructuredData().shuffled()
   @State private var alertMessage: String = ""
-    
+  
   var body: some View {
     if #available(iOS 15.0, *) {
       VStack {
-        
-        Text("\(story1.title)")
+        Text("\(story2.title)")
           .foregroundColor(Color(red: 0.764, green: 0.143, blue: 0.186))
           .multilineTextAlignment(.center)
           .font(.custom("OpenDyslexic-Bold", size: 25))
@@ -78,7 +77,7 @@ struct GameView1: View {
   // Check if the story is correct
   func checkStoryOrder() -> Bool {
     for index in stories.indices {
-      if stories[index].correctItem != story1.getStructuredData()[index].correctItem {
+      if stories[index].correctItem != story2.getStructuredData()[index].correctItem {
         return false
       }
     }
@@ -86,42 +85,37 @@ struct GameView1: View {
   }
 }
 
-struct Item : View {
-  
-  let story: StoryItems
-  
-  var body: some View {
-        
-    HStack {
-      Image(story.imageItem)
-        .resizable()
-        .clipped()
-        .aspectRatio(contentMode: .fit)
-        .frame(width: 100, height: 150)
-        .background(Color.white)
-        .cornerRadius(10)
-        .shadow(radius: 2)
-        .padding(.horizontal, -0)
-      Text(story.correctItem)
-        .padding(.all)
-        .frame(width: 180, height: 150)
-        .scaledToFill()
-        .background(Color.white)
-        .cornerRadius(20)
-        .shadow(radius: 2)
-        .multilineTextAlignment(.center)
-        .font(.custom("OpenDyslexic-Bold", size: 15))
-        .foregroundColor(Color.black)
-    }
-    .padding(.horizontal, -55)
-    .navigationBarHidden(true)
+struct GameView2_Previews: PreviewProvider {
+  static var previews: some View {
+    GameView2()
   }
 }
 
-struct GameView1_Previews: PreviewProvider {
-  static var previews: some View {
-    GameView1()
-  }
+extension View {
+    /// Navigate to a new view.
+    /// - Parameters:
+    ///   - view: View to navigate to.
+    ///   - binding: Only navigates when this condition is `true`.
+    func navigate<NewView: View>(to view: NewView, when binding: Binding<Bool>) -> some View {
+        NavigationView {
+            ZStack {
+                self
+                    .navigationBarTitle("")
+                    .navigationBarHidden(true)
+
+                NavigationLink(
+                    destination: view
+                        .navigationBarTitle("")
+                        .navigationBarHidden(true),
+                    isActive: binding
+                ) {
+                    EmptyView()
+                }
+            }
+        }
+        .navigationBarHidden(true)
+        .navigationViewStyle(.stack)
+    }
 }
 
 
