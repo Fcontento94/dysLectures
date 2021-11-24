@@ -166,7 +166,8 @@ struct BookView: View {
         .navigationBarBackButtonHidden(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
  //end Navigation
         
-    } // end view
+    }  
+  // end view
 }
    
 

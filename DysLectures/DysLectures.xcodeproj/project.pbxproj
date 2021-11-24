@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F033536274E31DB00164436 /* GameView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F033535274E31DB00164436 /* GameView2.swift */; };
 		9D232A3127482D8400EDD617 /* Data-Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3027482D8400EDD617 /* Data-Text.swift */; };
 		9D232A3327482DEF00EDD617 /* old-TutorialScenes(Anto).swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */; };
 		9D23E0E0274BB71900852953 /* GameView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23E0DF274BB71900852953 /* GameView1.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F033535274E31DB00164436 /* GameView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView2.swift; sourceTree = "<group>"; };
 		9D232A3027482D8400EDD617 /* Data-Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data-Text.swift"; sourceTree = "<group>"; };
 		9D232A3227482DEF00EDD617 /* old-TutorialScenes(Anto).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "old-TutorialScenes(Anto).swift"; sourceTree = "<group>"; };
 		9D23E0DF274BB71900852953 /* GameView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView1.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				9D23E0DF274BB71900852953 /* GameView1.swift */,
+				3F033535274E31DB00164436 /* GameView2.swift */,
 			);
 			path = Game_View;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				A460732527481CAC00AA7CEA /* Data-Monsters.swift in Sources */,
 				A443C3152746EE1500D7EA54 /* old-TutorialView.swift in Sources */,
 				A4A5BE8A274AA3C200E61AB0 /* OnboardingView.swift in Sources */,
+				3F033536274E31DB00164436 /* GameView2.swift in Sources */,
 				A4227EC0274960800027C25A /* Story1.swift in Sources */,
 				A443C31A2746F1E800D7EA54 /* BookView.swift in Sources */,
 				9D23E0E0274BB71900852953 /* GameView1.swift in Sources */,
